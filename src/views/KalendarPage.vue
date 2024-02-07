@@ -4,11 +4,10 @@
 
     <div class="tablet:w-3/4">
     <YearCalendar
-        v-for="item in calendar"
-        :key="item"
-        :year="item.year"
-        :events="item.events"
-
+        v-for="year in yearsToRender"
+        :key="year"
+        :year="year"
+        :events="getCompetitionsOfYear(year)"
     />
     </div>
   </div>
@@ -20,6 +19,19 @@
 import KalendarSvazu from "@/components/Kalendar/KalendarSvazu.vue";
 import YearCalendar from "@/components/Kalendar/YearCalendar.vue";
 import {Competition} from "@/interfaces/interfaces";
+import zavody from "../../public/data/zavody";
+
+const arrayRange = (start: number, stop: number, step: number) =>
+    Array.from(
+        { length: (stop - start) / step + 1 },
+        (value, index) => start + index * step
+    );
+
+const yearsToRender =  arrayRange(new Date().getFullYear(), 2023, -1)
+
+function getCompetitionsOfYear(year: number){
+  return zavody.filter((comp) => comp.date.endsWith(year.toString()))
+}
 
 const calendar = [
   {

@@ -61,8 +61,8 @@ import {MenuItem} from "@/interfaces/interfaces";
       link: '/o_oddilu',
     } as MenuItem,
     {
-      name: 'Závody',
-      link: '/zavody',
+      name: 'Výsledky',
+      link: '/vysledky',
     } as MenuItem,
     {
       name: 'Kalendář',

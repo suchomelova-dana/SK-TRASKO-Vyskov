@@ -16,6 +16,7 @@ enum TrenerskaTrida {
     trida2 = 'II. třída',
     trida3 = 'III. třída',
     trida4 = 'IV. třída',
+    instruktor = 'Instruktor',
     baletniPedagog = 'Baletní pedagog',
     brevet = 'BREVET'
 }

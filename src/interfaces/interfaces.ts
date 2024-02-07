@@ -16,15 +16,19 @@ interface ZavodyBtn {
 interface Competition {
     name: string,
     date: string,
+    type: CompetitionType
     club?: string,
     results?: string,
-    invitation?: string
 }
 
 interface Coach {
     name: string,
     level: TrenerskaTrida,
-    degree: string
+    degree?: string
+}
+
+interface Member {
+    name: string,
 }
 
 interface JudgesList {
@@ -33,5 +37,21 @@ interface JudgesList {
     heading: string
 }
 
-export {MenuItem, ZavodyBtn, Competition, Coach, JudgesList}
+interface Document {
+    title: string,
+    document: string,
+}
+
+interface Information {
+    date: string;
+    pdf: string;
+    description?: string;
+}
+
+interface VyrocniZprava {
+    year: number;
+    pdf: string
+}
+
+export {MenuItem, ZavodyBtn, Competition, Coach, JudgesList, Member, Document, Information, VyrocniZprava}
 

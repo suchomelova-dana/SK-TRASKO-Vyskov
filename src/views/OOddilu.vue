@@ -23,249 +23,51 @@
         <span class="px-2 text-left">{{ item.degree }} {{ item.name }}</span>
       </li>
     </ul>
-
   </div>
+
+
+  <div class="flex flex-col bg-grayLight px-12 py-16 laptop:flex-row">
+    <div class="flex flex-col laptop:w-1/2 px-12 ">
+      <h3 class="text-orange text-xl font-semibold p-6">Sportovní akademie</h3>
+      <div class="flex justify-center items-center">
+        <p>Sportovní akademie (dále jen „SA“) je určena pro talentované moderní gymnastky ve věku 6 až 13 let.
+          Jejím posláním je vytvoření podmínek pro rozvoj moderní gymnastiky v dané oblasti a systematická, dlouhodobá sportovní příprava gymnastek na přechod do SpS</p>
+      </div>
+
+      <ul class="flex flex-col">
+        <span class="text-lg py-5 font-semibold">Členky SA</span>
+        <li v-for="member in SAmembers" :key="member.name" class="py-1 ">{{member.name}}</li>
+      </ul>
+    </div>
+
+    <div class="flex flex-col laptop:w-1/2 px-12 ">
+      <h3 class="text-green text-xl font-semibold p-6">Družstvo nadějí</h3>
+      <div class="flex justify-center items-center">
+        <p>V našem oddílu máme také gymnastky, které jsou členkami družstva nadějí.</p>
+      </div>
+
+      <ul class="flex flex-col">
+        <span class="tex-lg py-5 font-semibold">Členky Družstva nadějí</span>
+        <li v-for="member in clenkyDruzstvaNadeji" :key="member.name" class="py-1 ">{{member.name}}</li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <div class="w-full h-[200px] bg-white"></div>
+
 </template>
 
 <script setup lang="ts">
 
-import {Coach, JudgesList} from "@/interfaces/interfaces";
-import {TrenerskaTrida} from "@/interfaces/enums";
+import {JudgesList} from "@/interfaces/interfaces";
+import judges from "../../public/data/rozhodci";
+import coaches from "../../public/data/trenerky";
+import judgesESG from "../../public/data/rozhodciESG";
+import SAmembers from "../../public/data/clenkySA";
+import clenkyDruzstvaNadeji from "../../public/data/clenkyDruzstvaNadeji";
 
-
-const coaches : Coach[] = [
-  {
-    level: TrenerskaTrida.trida1,
-    name: 'Kapounková Kateřina',
-    degree: 'MUDr.'
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida1,
-    name: 'Langová Hanne',
-    degree: 'Mgr.'
-  } as Coach,
-  {
-    level: TrenerskaTrida.baletniPedagog,
-    name: 'Dvořák Kamil',
-    degree: 'MgA.'
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida2,
-    name: 'Bohuslavová Simona',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida2,
-    name: 'Bubníková Hanna',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida2,
-    name: 'Kapounková Karolína',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida2,
-    name: 'Langová Jiřina',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida2,
-    name: 'Pavlíková Michaela',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida2,
-    name: 'Štaudrová Petra',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida2,
-    name: 'Urbancová Markéta',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Dohnalová Kristýna',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Dohnalová Šárka',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Sládková Nicol',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Suchomelová Dana',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Surková Iva',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Šnajdárová Eva',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Trgalová Helena',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Vágnerová Lenka',
-    degree: ''
-  } as Coach,
-]
-
-const judges : Coach[] = [
-  {
-    level: TrenerskaTrida.brevet,
-    name: 'Kapounková Kateřina',
-    degree: 'MUDr.'
-  } as Coach,
-  {
-    level: TrenerskaTrida.brevet,
-    name: 'Langová Hanne',
-    degree: 'Mgr.'
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida1,
-    name: 'Pavlíková Michaela',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida1,
-    name: 'Surková Iva',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida2,
-    name: 'Štaudrová Petra',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida2,
-    name: 'Urbancová Markéta',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Bohuslavová Simona',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Dohnalová Kristýna',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Frydrychová Lenka',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Hudáková Eva',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Kapounková Karolína',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Langová Jiřina',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Nováková Radana',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Rybková Veronika',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Suchomelová Dana',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Šnajdárová Eva',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Vágnerová Lenka',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida3,
-    name: 'Vejrostová Květa',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida4,
-    name: 'Bubníková Hanna',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida4,
-    name: 'Dohnalová Šárka',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida4,
-    name: 'Sládková Nicol',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida4,
-    name: 'Suchomelová Kvetoslava',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida4,
-    name: 'Trgalová Helena',
-    degree: ''
-  } as Coach,
-]
-
-const judgesESG : Coach[] = [
-  {
-    level: TrenerskaTrida.trida1,
-    name: 'Kapounková Kateřina',
-    degree: 'MUDr.'
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida1,
-    name: 'Surková Iva',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida2,
-    name: 'Pavlíková Michaela',
-    degree: ''
-  } as Coach,
-  {
-    level: TrenerskaTrida.trida2,
-    name: 'Urbancová Markéta',
-    degree: ''
-  } as Coach,
-]
 
 const coachesAndJudgesLists : JudgesList[] = [
   {

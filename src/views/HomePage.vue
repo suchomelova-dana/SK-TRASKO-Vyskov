@@ -61,13 +61,13 @@
       <SectionBoxHomepage section-name="Sponzoři" text-color="text-blue">
       <slot>
         <div class="px-10 flex flex-col items-center justify-center ">
-          <img src="../../public/images/sponzori/TRASKO_logo+pas__pos__sRGB.jpg" class="h-[140px] laptop:h-[200px]">
+          <a href="https://www.trasko.cz/" target="_blank" class="hover:scale-105 transition"><img src="../../public/images/sponzori/TRASKO_logo+pas__pos__sRGB.jpg" class="h-[140px] laptop:h-[200px]"></a>
           <div class="w-[80%] text-blue pb-10 text-sm tablet:w-[60%]">Firma TRASKO, a.s. finančně zabezpečuje chod oddílu po celou dobu jeho působení, a dále oddílu vypomáhá také materiálně-technickým zabezpečením všech pořádaných akcí.</div>
 
           <div class="flex flex-col items-center laptop:flex-row">
-            <div><img class="h-[100px]" src="../../public/images/sponzori/vyskov_logo_MV_web.jpg"></div>
-            <div><img class="h-[100px]" src="../../public/images/sponzori/Logotyp_jihomoravsky_kraj_RGB.jpg"></div>
-            <div><img class="h-[100px]" src="../../public/images/sponzori/Narodni%20sportovni%20agentura_logo%20rgb.jpg"></div>
+            <a href="https://www.vyskov-mesto.cz/" target="_blank" class="hover:scale-105 transition"><img class="h-[100px]" src="../../public/images/sponzori/vyskov_logo_MV_web.jpg"></a>
+            <a href="https://www.jmk.cz/" target="_blank" class="hover:scale-105 transition"><img class="h-[100px]" src="../../public/images/sponzori/Logotyp_jihomoravsky_kraj_RGB.jpg"></a>
+            <a href="https://nsa.gov.cz/" target="_blank" class="hover:scale-105 transition"><img class="h-[100px]" src="../../public/images/sponzori/Narodni%20sportovni%20agentura_logo%20rgb.jpg"></a>
           </div>
           <div class="w-[80%] text-blue pb-10 text-sm tablet:w-[60%]">Činnost oddílu SK TRASKO Vyškov, z.s. a akce jím realizované jsou finančně podporovány městem Vyškov, Jihomoravským krajem a Národní sportovní agenturou.</div>
 
@@ -126,7 +126,7 @@
 .hide-animate{
   opacity: 0;
   transition: 1s;
-  transform: translateX(-5%);
+  transform: translateY(5%);
 }
 
 .show-animate{

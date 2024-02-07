@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full px-[5%] py-5 ">
+  <div class="w-full px-[5%] py-5 " v-if="events.length !== 0">
     <div>
       <h2 class="text-orange font-bold p-5 text-2xl">{{ year }}</h2>
     </div>
@@ -8,10 +8,9 @@
       <div v-for="month in getUsedMonths()" :key="month" class="p-3 w-full">
         <h3 class="text-green font-semibold">{{ getMonthName(month) + ' ' + year}}</h3>
         <div v-for="event in getMontEvents(month)" :key="event" class="flex flex-row items-end pl-10 p-2 bg-gray-100 w-[100%] text-greenDarkest">
-          <span class="w-[100px] flex font-medium">{{event.date}}</span>
+          <span class="w-[120px] flex font-medium">{{event.date}}</span>
           <span class="flex ">{{ event.name}}</span>
-          <a href="" v-if="event.results" class="text-green text-xs underline pl-5 "> výsledky </a>
-          <a href="" v-if="event.results" class="text-green text-xs underline pl-5 "> pozvánka </a>
+          <a href="" target="_blank" v-if="event.results" class="text-green text-sm font-semibold underline pl-3 "> výsledky </a>
         </div>
       </div>
     </div>
@@ -42,7 +41,7 @@ function getUsedMonths(){
 }
 
 function getMontNumberFromDate(date : string): string {
-  return date.split('.')[1] as string
+  return date.split('.')[date.split('.').length-2] as string
 }
 
 function getMonthName(monthString: string){

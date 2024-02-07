@@ -2,8 +2,8 @@ import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 import HomePage from '../views/HomePage.vue'
 import {CompetitionType} from "@/interfaces/enums"
 import ZavodyPage from '../views/ZavodyPage.vue'
-import ZavodySelection from '../components/Zavody/ZavodySelection.vue'
-import ZavodyDetail from '../components/Zavody/ZavodyDetail.vue'
+import ZavodySelection from '../components/Vysledky/VysledkySelection.vue'
+import ZavodyDetail from '../components/Vysledky/VysledkyDetail.vue'
 import ProClenyLogin from '../views/ProClenyLogin.vue'
 import ProClenyProtected from '../views/ProClenyProtected.vue'
 import ProClenyPage from '../views/ProClenyPage.vue'
@@ -22,8 +22,8 @@ const routes: Array<RouteRecordRaw> = [
     component: OOddiluPage
   },
   {
-    path: '/zavody',
-    name: 'zavody',
+    path: '/vysledky',
+    name: 'vysledky',
     component: ZavodyPage,
     children: [
       {
@@ -32,18 +32,18 @@ const routes: Array<RouteRecordRaw> = [
         props: {competitions: null, compType: CompetitionType.jednotlivci, year: 2023}
       },
       {
-        path: 'zavodyJednotlivci',
+        path: 'vysledkyJednotlivci',
         component: ZavodyDetail,
         props: {competitions: null, compType: CompetitionType.jednotlivci, year: 2023}
       },
       {
-        path: 'zavodySpolecneSkladby',
+        path: 'vysledkySpolecneSkladby',
         component: ZavodyDetail,
         props: {competitions: null, compType: CompetitionType.spolecky, year: 2023},
 
       },
       {
-        path: 'zavodyESG',
+        path: 'vysledkyESG',
         component: ZavodyDetail,
         props: {competitions: null, compType: CompetitionType.esg, year: 2023}
       },
