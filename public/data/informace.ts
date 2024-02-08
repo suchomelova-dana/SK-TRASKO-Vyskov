@@ -3,32 +3,32 @@ import {Information} from "../../src/interfaces/interfaces";
 const informace : Information[] = [
     {
         date: '25.8.2023',
-        pdf: 'informace_25.8.2023.pdf',
+        pdf: 'Informace_25.8.2023.pdf',
         description: '',
     },
     {
         date: '8.9.2023',
-        pdf: 'informace_8_9_2023.pdf',
+        pdf: 'Informace_8_9_2023.pdf',
         description: '',
     },
     {
         date: '15.9.2023',
-        pdf: 'informace_15.9.2023.pdf',
+        pdf: 'Informace_15.9.2023.pdf',
         description: '',
     },
     {
         date: '21.9.2023',
-        pdf: 'informace 21_9_2023 - pro P a PP.pdf',
+        pdf: 'Informace 21_9_2023 - pro P a PP.pdf',
         description: 'pro P a PP',
     },
     {
         date: '10.10.2023',
-        pdf: 'informace 10_10_2023.pdf',
+        pdf: 'Informace 10_10_2023.pdf',
         description: '',
     },
     {
         date: '17.10.2023',
-        pdf: 'informace 17_10_2023.pdf',
+        pdf: 'Informace 17_10_2023.pdf',
         description: '',
     },
     {
