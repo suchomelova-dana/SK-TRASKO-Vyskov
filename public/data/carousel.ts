@@ -1,3 +1,5 @@
+const carouselHeading = 'Naše holky na Mistrovství České republiky 2023 ve společných skladbách:'
+
 const pictures = [
     {image: 'car1.jpg'},
     {image: 'car2.jpg'},
@@ -10,4 +12,4 @@ const pictures = [
     {image: 'car9.jpg'}
 ]
 
-export default pictures
+export {pictures, carouselHeading}

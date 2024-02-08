@@ -7,7 +7,7 @@
     </router-link>
 
 <!--    desktop menu-->
-    <nav v-if="!mobile" class="flex items-center uppercase text-xs text-black justify-between tablet:w-3/5 laptop:w-2/5 desktop:1/3 ">
+    <nav v-if="!mobile" class="flex items-center uppercase text-sm text-black justify-between tablet:w-3/5 laptop:w-2/5 desktop:1/3 ">
       <router-link
           v-for="menuItem in menuItems"
           :key="menuItem.link"

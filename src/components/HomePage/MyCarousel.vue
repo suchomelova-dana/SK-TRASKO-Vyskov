@@ -1,6 +1,6 @@
 <template>
   <div class="py-14">
-    <div class="text-gray-500 font-semibold p-4 ">Naše holky na Mistrovství České republiky 2023 ve společných skladbách:</div>
+    <div class="text-gray-500 font-semibold p-4 ">{{carouselHeading}}</div>
 
     <div class="relative">
       <ul class="controls w-full flex flex-row justify-between absolute top-[50%]" >
@@ -25,7 +25,7 @@
 <script setup lang="ts">
   import {tns} from "tiny-slider"
   import {onMounted} from "vue";
-  import pictures from "../../../public/data/carousel";
+  import {pictures, carouselHeading} from "../../../public/data/carousel";
 
   onMounted(() => {
     var slider = tns({

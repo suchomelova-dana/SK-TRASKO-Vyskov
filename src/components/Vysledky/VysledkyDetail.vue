@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col laptop:flex-row laptop:items-start  laptop:px-[5%] ">
 <!--    Years buttons-->
-    <div class="flex flex-row py-10 overflow-scroll gap-8 items-start laptop:flex-col laptop:sticky laptop:top-[60px] laptop:overflow-hidden laptop:items-center laptop:p-[2%] laptop:min-h-[100vh] laptop:justify-center">
-        <div class="w-[30px]"></div>
+    <div class="flex flex-row pt-10 pb-5 overflow-scroll gap-8 items-start laptop:flex-col laptop:sticky laptop:top-[60px] laptop:overflow-hidden laptop:items-center laptop:p-[2%] laptop:min-h-[100vh] laptop:justify-center">
+        <div class="w-[20px]"></div>
         <CustomButton
             v-for="item in yearsToRender"
             :value="item.toString()"
@@ -13,7 +13,7 @@
             :text-color="item === activeYear ? 'text-white' : 'text-' + getColor() + 'Dark'"
             @click="handleClickYear(item)"
         />
-        <div class="w-[30px]"></div>
+        <div class="w-[20px]"></div>
     </div>
 
 <!--    Heading-->
@@ -27,7 +27,7 @@
     </div>
 
 <!--    Competition content-->
-    <div class=" flex flex-col flex-grow items-center laptop:items-end py-14 my-auto " v-if="competitionsToRender.length !== 0">
+    <div class=" flex flex-col flex-grow items-center laptop:items-end py-5 my-auto " v-if="competitionsToRender.length !== 0">
       <div class=" flex flex-col gap-5 w-3/4  justify-end items-end my-auto " >
         <div
             v-for="item in competitionsToRender"

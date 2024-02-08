@@ -1,8 +1,8 @@
 <template>
   <div class="bg-greenLight flex items-center flex-col laptop:flex-row">
 
-    <div class="laptop:w-1/2" id="image">
-      <img src="images/zavody/esg.jpg" alt="" class="h-[500px] object-cover w-full">
+    <div class="w-full h-[300px] laptop:h-[500px] laptop:w-1/2" id="image">
+      <img src="images/zavody/esg.jpg" alt="" class="h-full object-cover w-full">
     </div>
 
     <div class="flex flex-col gap-10 laptop:w-1/2 px-[10%] laptop:px-[5%] py-5 justify-center">
