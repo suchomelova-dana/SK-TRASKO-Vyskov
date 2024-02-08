@@ -9,7 +9,7 @@
           class="w-[60%] rounded-2xl flex flex-col items-center justify-center hover:cursor-pointer ease-in-out transition transition-duration-100 hover:scale-105 laptop:bg-gray-100 laptop:p-5 laptop:w-auto laptop:space-y-10"
           :class="item.bgColor"
       >
-        <img :src="item.image" alt="" class="invisible h-0 flex flex-col justify-center items-center rounded-xl laptop:visible  laptop:h-[300px] ">
+        <img :src="'images/zavody/' + item.image" alt="" class="invisible h-0 flex flex-col justify-center items-center rounded-xl laptop:visible  laptop:h-[300px] ">
         <CustomButton :value="item.name" :bg-color="item.btnColor" text-color="text-white" class="w-full h-[70px] font-semibold text-lg laptop:w-auto laptop:h-auto laptop:text-base laptop:font-normal  "/>
       </router-link>
 
@@ -24,21 +24,21 @@ import {CompetitionType} from "@/interfaces/enums";
 
 const items = ref<Array<ZavodyBtn>>([
   {
-    image: '/images/zavody/spolecky.jpg',
+    image: 'spolecky.jpg',
     name: CompetitionType.spolecky,
     path: '/vysledkySpolecneSkladby',
     btnColor: 'bg-green',
     bgColor: 'hover:bg-greenLight'
   } as ZavodyBtn,
   {
-    image: '/images/zavody/jednotlivci.png',
+    image: 'jednotlivci.png',
     name: CompetitionType.jednotlivci,
     path: '/vysledkyJednotlivci',
     btnColor: 'bg-orange',
     bgColor: 'hover:bg-orangeLight'
   }as ZavodyBtn,
   {
-    image: '/images/zavody/esg.jpg',
+    image: 'esg.jpg',
     name: CompetitionType.esg,
     path: '/vysledkyESG',
     btnColor: 'bg-blue',

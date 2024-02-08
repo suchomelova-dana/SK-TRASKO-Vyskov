@@ -9,14 +9,14 @@
     </div>
 
     <div class="w-full laptop:w-2/5 bg-gray-600 flex flex-row justify-center flex-wrap items-center gap-16 py-7 px-5 text-greenLight text-lg font-semibold">
-        <a class="hover:text-white transition duration-200" href="https://www.rgform.eu/menu.php" target="_blank">
-          <img src="images/ksis.png" alt="" class="w-[100px]">
+        <a class="hover:text-white transition duration-200 hover:scale-105" href="https://www.rgform.eu/menu.php" target="_blank">
+          <img src="images/odkazy/ksis.png" alt="" class="w-[100px]">
         </a>
-        <a class="hover:text-white transition duration-200" href="https://www.csmg.cz/" target="_blank">
-          <img src="images/csmg.png" alt="" class="w-[100px]">
+        <a class="hover:text-white transition duration-200 hover:scale-105" href="https://www.csmg.cz/" target="_blank">
+          <img src="images/odkazy/csmg.png" alt="" class="w-[100px]">
         </a>
-        <a class="hover:text-white transition duration-200" href="https://csesg.cz/" target="_blank">
-          <img src="images/csesg.png" alt="" class="w-[100px]">
+        <a class="hover:text-white transition duration-200 hover:scale-105" href="https://csesg.cz/" target="_blank">
+          <img src="images/odkazy/csesg.png" alt="" class="w-[100px]">
         </a>
     </div>
 
