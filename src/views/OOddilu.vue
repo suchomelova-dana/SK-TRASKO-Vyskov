@@ -27,7 +27,7 @@
 
 
   <div class="flex flex-col bg-grayLight px-12 py-16 laptop:flex-row">
-    <div class="flex flex-col laptop:w-1/2 px-12 ">
+    <div class="flex flex-col laptop:w-1/2 laptop:px-12 ">
       <h3 class="text-orange text-xl font-semibold p-6">Sportovní akademie</h3>
       <div class="flex justify-center items-center">
         <p>Sportovní akademie (dále jen „SA“) je určena pro talentované moderní gymnastky ve věku 6 až 13 let.
@@ -40,7 +40,7 @@
       </ul>
     </div>
 
-    <div class="flex flex-col laptop:w-1/2 px-12 ">
+    <div class="flex flex-col laptop:w-1/2 laptop:px-12 ">
       <h3 class="text-green text-xl font-semibold p-6">Družstvo nadějí</h3>
       <div class="flex justify-center items-center">
         <p>V našem oddílu máme také gymnastky, které jsou členkami družstva nadějí.</p>

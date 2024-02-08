@@ -34,7 +34,7 @@
             :key="item.name"
             class="flex flex-row w-[100%] "
         >
-          <div class="p-5 bg-opacity-40 flex-grow text-left px-10" :class="'bg-' + getColor() + 'Light'">
+          <div class="p-5 bg-opacity-40 flex-grow text-left laptop:px-10" :class="'bg-' + getColor() + 'Light'">
             <h2 class="text-xl font-semibold" :class="'text-' + getColor() + 'Dark'">{{ item.name }}</h2>
             <h3 class="text-black" >{{ item.club }}</h3>
             <h4 class="text-gray-400" >{{ item.date }}</h4>

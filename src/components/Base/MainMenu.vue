@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between px-10 items-center h-[60px] z-20 sticky top-0 bg-white">
+  <div class="flex justify-between pl-5  pr-8 laptop:px-10 items-center h-[60px] z-20 sticky top-0 bg-white">
 
 <!--    logo-->
     <router-link to="/">
@@ -125,12 +125,12 @@ import {MenuItem} from "@/interfaces/interfaces";
 
   .mobile-nav-enter-active,
   .mobile-nav-leave-active{
-    transition: 1s ease all;
+    transition: 0.5s ease all;
   }
 
   .mobile-nav-enter-from,
   .mobile-nav-leave-to{
-    transform: translateX(1000px);
+    transform: translateX(500px);
   }
 
   .mobile-nav-enter-to{
