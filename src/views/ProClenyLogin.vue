@@ -66,8 +66,6 @@
   document.addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
       const inputEl = document.getElementById("input")
-
-
       event.preventDefault();
       validatePassword()
     }
