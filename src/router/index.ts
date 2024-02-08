@@ -88,7 +88,7 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
   if(to.matched.some((record) => record.meta.requiresAuth)) {
     if(document.cookie.indexOf('SKTraskoCookie=') === -1){
-      next('pro_cleny/login');
+      next('/pro_cleny/login');
     }
     else{
       next()

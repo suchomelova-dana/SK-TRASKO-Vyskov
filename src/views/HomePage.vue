@@ -2,7 +2,7 @@
 
 <!--  Homepage box-->
 
-  <div class="flex flex-col tablet:flex-row tablet:h-[calc(100vh-60px)] tablet:min-h-[600px] bg-greenLight" id="homepageHeading">
+  <div class="flex flex-col tablet:flex-row tablet:h-[calc(100vh-60px)] tablet:min-h-[600px] bg-greenLight overflow-hidden" id="homepageHeading">
     <div class="bg-greenLight text-greenDarkest flex justify-center flex-col h-full tablet:w-1/2 laptop:w-1/3 ">
       <div class="flex flex-col space-y-5 items-center p-14">
         <h2 class="text-greenDarkest font-semibold text-3xl">Vítejte</h2>
@@ -60,16 +60,16 @@
   <section class="hide-animate">
       <SectionBoxHomepage section-name="Sponzoři" text-color="text-blue">
       <slot>
-        <div class="px-10 flex flex-col items-center justify-center ">
+        <div class="px-5 tablet:px-10 flex flex-col items-center justify-center ">
           <a href="https://www.trasko.cz/" target="_blank" class="hover:scale-105 transition"><img src="../../public/images/sponzori/TRASKO_logo+pas__pos__sRGB.jpg" class="h-[140px] laptop:h-[200px]"></a>
-          <div class="w-[80%] text-blue pb-10 text-sm tablet:w-[60%]">Firma TRASKO, a.s. finančně zabezpečuje chod oddílu po celou dobu jeho působení, a dále oddílu vypomáhá také materiálně-technickým zabezpečením všech pořádaných akcí.</div>
+          <div class="w-[90%] text-blue pb-10 text-sm tablet:w-[60%]">Firma TRASKO, a.s. finančně zabezpečuje chod oddílu po celou dobu jeho působení, a dále oddílu vypomáhá také materiálně-technickým zabezpečením všech pořádaných akcí.</div>
 
-          <div class="flex flex-col items-center laptop:flex-row">
-            <a href="https://www.vyskov-mesto.cz/" target="_blank" class="hover:scale-105 transition"><img class="h-[100px]" src="../../public/images/sponzori/vyskov_logo_MV_web.jpg"></a>
-            <a href="https://www.jmk.cz/" target="_blank" class="hover:scale-105 transition"><img class="h-[100px]" src="../../public/images/sponzori/Logotyp_jihomoravsky_kraj_RGB.jpg"></a>
-            <a href="https://nsa.gov.cz/" target="_blank" class="hover:scale-105 transition"><img class="h-[100px]" src="../../public/images/sponzori/Narodni%20sportovni%20agentura_logo%20rgb.jpg"></a>
+          <div class="flex flex-col items-center justify-center laptop:flex-row">
+            <a href="https://www.vyskov-mesto.cz/" target="_blank" class="flex justify-center laptop:hover:scale-105 transition"><img class="h-[15vw] tablet:h-[100px] " src="../../public/images/sponzori/vyskov_logo_MV_web.jpg"></a>
+            <a href="https://www.jmk.cz/" target="_blank" class="flex justify-center laptop:hover:scale-105 transition"><img class="h-[15vw] tablet:h-[100px]" src="../../public/images/sponzori/Logotyp_jihomoravsky_kraj_RGB.jpg"></a>
+            <a href="https://nsa.gov.cz/" target="_blank" class="flex justify-center laptop:hover:scale-105 transition"><img class="h-[15vw] tablet:h-[100px]" src="../../public/images/sponzori/Narodni%20sportovni%20agentura_logo%20rgb.jpg"></a>
           </div>
-          <div class="w-[80%] text-blue pb-10 text-sm tablet:w-[60%]">Činnost oddílu SK TRASKO Vyškov, z.s. a akce jím realizované jsou finančně podporovány městem Vyškov, Jihomoravským krajem a Národní sportovní agenturou.</div>
+          <div class="w-[90%] text-blue pb-10 text-sm tablet:w-[60%]">Činnost oddílu SK TRASKO Vyškov, z.s. a akce jím realizované jsou finančně podporovány městem Vyškov, Jihomoravským krajem a Národní sportovní agenturou.</div>
 
           <div class="flex block flex-grow"></div>
         </div>

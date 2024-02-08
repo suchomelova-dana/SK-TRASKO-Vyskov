@@ -41,11 +41,11 @@
   import CustomButton from "@/components/Base/CustomButton.vue";
   import {  ref} from "vue";
   import router from "@/router";
+  import correctHashes from "../../public/data/password";
 
   const wrongPassword = ref(false)
   const input = ref<string>('')
   const inputHash = ref<string>('')
-  const correctHashes = ['A83759820A557E96EAEEC97BB2F05F93D8D62E9A6DB936CBFCE4D952988F4BFC', '505111C7B6ADAD2CA4ED15B6EFFB100F197B39D8E751EC6299293EC7582695A0']
 
   function validatePassword(){
     generatePasswordHash(input.value).then(() => {
