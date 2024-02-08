@@ -3,17 +3,17 @@ import {Information} from "../../src/interfaces/interfaces";
 const informace : Information[] = [
     {
         date: '25.8.2023',
-        pdf: 'informace 25.8.2023.pdf',
+        pdf: 'informace_25.8.2023.pdf',
         description: '',
     },
     {
         date: '8.9.2023',
-        pdf: 'informace 8_9_2023.pdf',
+        pdf: 'informace_8_9_2023.pdf',
         description: '',
     },
     {
         date: '15.9.2023',
-        pdf: 'informace 15.9.2023.pdf',
+        pdf: 'informace_15.9.2023.pdf',
         description: '',
     },
     {
