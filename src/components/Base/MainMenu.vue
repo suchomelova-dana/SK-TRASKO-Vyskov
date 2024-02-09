@@ -2,7 +2,7 @@
   <div class="flex justify-between pl-5  pr-8 laptop:px-10 items-center h-[80px] z-20 sticky top-0 bg-white shadow">
 
 <!--    logo-->
-    <router-link to="/" class=" h-full hover:scale-105 transition-all">
+    <router-link to="/" class=" h-full hover:scale-105 transition-all" @click="mobileNavOpened = false">
       <img alt="Logo" src="../../../public/trasko_logo.svg" class="h-full">
     </router-link>
 

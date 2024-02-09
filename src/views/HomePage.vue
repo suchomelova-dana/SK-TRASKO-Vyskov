@@ -6,7 +6,7 @@
       <div class="flex flex-col space-y-5 items-center p-14">
         <h2 class="text-greenDarkest font-semibold text-3xl">Vítejte</h2>
         <h3 class="text-greenDarkest text-lg w-72 ">na stránkách oddílu moderní gymnastiky</h3>
-        <h1 class="text-primary font-bold text-6xl mt-20 mb-32 pt-10 w-96">SK TRASKO VYŠKOV</h1>
+        <h1 class="text-primary font-bold text-5xl tablet:text-6xl mt-20 mb-32 pt-10 w-96">SK TRASKO VYŠKOV</h1>
         <CustomButton
             class="mt-56 hover:scale-105 transition duration-200"
             value="Aktuality"
