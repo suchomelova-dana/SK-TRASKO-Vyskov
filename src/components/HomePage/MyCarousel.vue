@@ -4,10 +4,10 @@
 
     <div class="relative">
       <ul class="controls w-full flex flex-row justify-between absolute top-[50%]" >
-        <li class="prev rotate-180 z-10 flex flex-col items-center py-5 px-2 bg-white bg-opacity-60 hover:cursor-pointer hover:bg-opacity-100">
+        <li class="prev rotate-180 z-10 flex flex-col items-center justify-center h-[60px] rounded-l px-2 bg-white laptop:hover:px-4 text-gray-500 hover:text-black transition-all hover:cursor-pointer">
           <span class="material-symbols-outlined">arrow_forward_ios</span>
         </li>
-        <li class="next z-10 flex flex-col items-center py-5 px-2 bg-white bg-opacity-60 hover:cursor-pointer hover:bg-opacity-100">
+        <li class="next z-10 flex flex-col items-center justify-center h-[60px] rounded-l px-2 bg-white laptop:hover:px-4 text-gray-500 hover:text-black transition-all hover:cursor-pointer">
           <span class="material-symbols-outlined ">arrow_forward_ios</span>
         </li>
       </ul>

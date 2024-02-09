@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col laptop:flex-row laptop:items-start  laptop:px-[5%] ">
+  <div class="flex flex-col laptop:flex-row laptop:items-start  laptop:px-[5%] overflow-hidden ">
 <!--    Years buttons-->
     <div class="flex flex-row pt-10 pb-5 overflow-scroll gap-8 items-start laptop:flex-col laptop:sticky laptop:top-[60px] laptop:overflow-hidden laptop:items-center laptop:p-[2%] laptop:min-h-[100vh] laptop:justify-center">
         <div class="w-[20px]"></div>
@@ -27,24 +27,28 @@
     </div>
 
 <!--    Competition content-->
-    <div class=" flex flex-col flex-grow items-center laptop:items-end py-5 my-auto " v-if="competitionsToRender.length !== 0">
+    <div class=" flex flex-col flex-grow items-center laptop:items-end py-5 my-auto slide-from-right" v-if="competitionsToRender.length !== 0">
       <div class=" flex flex-col gap-5 w-3/4  justify-end items-end my-auto " >
-        <div
+        <a
             v-for="item in competitionsToRender"
             :key="item.name"
-            class="flex flex-row w-[100%] "
+            class="flex flex-row w-[100%] bg-opacity-40 group hover:bg-opacity-60 transition-all  "
+            :class="'bg-' + getColor() + 'Light'"
+            href=""
+            target="_blank"
         >
-          <div class="p-5 bg-opacity-40 flex-grow text-left laptop:px-10" :class="'bg-' + getColor() + 'Light'">
+          <div class="p-5 bg-opacity-40 flex-grow text-left laptop:px-10 rounded " >
             <h2 class="text-xl font-semibold" :class="'text-' + getColor() + 'Dark'">{{ item.name }}</h2>
             <h3 class="text-black" >{{ item.club }}</h3>
             <h4 class="text-gray-400" >{{ item.date }}</h4>
           </div>
 
-
-          <a href="" target="_blank" class="p-5 flex flex-col justify-center hover:px-7 transition-all duration-200 group" :class="['bg-' + getColor() + 'Light', 'hover:bg-' + getColor()]">
+          <div
+              class="p-5 flex flex-col justify-center group-hover:px-7 transition-all duration-200 rounded-r"
+              :class="['bg-' + getColor() + 'Light', 'hover:bg-' + getColor(), {'group-hover:bg-green' : props.compType === CompetitionType.spolecky, 'group-hover:bg-orange' : props.compType === CompetitionType.jednotlivci, 'group-hover:bg-blue' : props.compType === CompetitionType.esg }]">
               <div class="underline text-[16px] transition duration-200 group-hover:text-white" :class="'text-' + getColor()">výsledky</div>
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
     </div>
     <div v-else class="flex items-center laptop:w-3/4 justify-center h-full align-middle items-center my-auto ">
@@ -89,39 +93,6 @@ import {defineProps, onMounted, ref, withDefaults} from 'vue'
   //   return color
   // }
 
-  // const competitions = ref<Competition[]>([
-  //   {
-  //     name: 'Trasko CUP',
-  //     date: '3.11.2023',
-  //     club: 'SK Trasko Vyškov'
-  //   } as Competition,
-  //   {
-  //     name: 'Žďárská sněženka',
-  //     date: '3.11.2023',
-  //     club: 'SK Trasko Vyškov'
-  //   } as Competition,
-  //   {
-  //     name: 'O pohár města Vyškova',
-  //     date: '3.11.2023',
-  //     club: 'SK Trasko Vyškov'
-  //   } as Competition,
-  //   {
-  //     name: 'Přerovská stuha',
-  //     date: '3.11.2023',
-  //     club: 'SK Trasko Vyškov'
-  //   } as Competition,
-  //   {
-  //     name: 'Trasko CUP',
-  //     date: '3.11.2023',
-  //     club: 'SK Trasko Vyškov'
-  //   } as Competition,
-  //   {
-  //     name: 'Trasko CUP',
-  //     date: '3.11.2023',
-  //     club: 'SK Trasko Vyškov'
-  //   } as Competition,
-  //
-  // ])
 
   const activeYear = ref<number>(new Date().getFullYear())
 
@@ -168,5 +139,16 @@ function handleClickYear(year: number) {
 </script>
 
 <style scoped>
+.slide-from-right{
+  animation: 0.5s ease slide-from-right;
+}
 
+@keyframes slide-from-right {
+  0%{
+    transform: translateX(100px);
+  }
+  80%{
+    transform: translateX(0);
+  }
+}
 </style>

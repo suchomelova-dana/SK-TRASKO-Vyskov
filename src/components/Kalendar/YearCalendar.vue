@@ -6,11 +6,13 @@
 
     <div class="flex flex-col items-start text-left">
       <div v-for="month in getUsedMonths()" :key="month" class="p-3 w-full">
-        <h3 class="text-green font-semibold mb-2">{{ getMonthName(month) + ' ' + year}}</h3>
-        <div v-for="event in getMontEvents(month)" :key="event" class="flex flex-row items-start px-10 p-2 bg-gray-100 w-[100%] text-greenDarkest">
-          <span class="w-[120px] flex font-medium ">{{event.date}}</span>
-          <span class="flex w-calc">{{ event.name}}</span>
-          <a href="" target="_blank" v-if="event.results" class=" text-green text-sm font-semibold  underline pl-3 "> výsledky </a>
+        <h3 class="text-green font-semibold mb-2 ml-2">{{ getMonthName(month) + ' ' + year}}</h3>
+        <div class="bg-gray-100 rounded-md">
+          <div v-for="event in getMontEvents(month)" :key="event" class="flex flex-row items-start px-5 laptop:px-10 p-2  w-[100%] text-greenDarkest">
+            <span class="w-[120px] flex font-medium ">{{event.date}}</span>
+            <span class="flex w-calc">{{ event.name}}</span>
+            <a href="" target="_blank" v-if="event.results" class=" text-green text-sm font-semibold  underline pl-3 "> výsledky </a>
+          </div>
         </div>
       </div>
     </div>

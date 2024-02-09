@@ -1,9 +1,9 @@
 <template>
-  <div class="flex justify-between pl-5  pr-8 laptop:px-10 items-center h-[60px] z-20 sticky top-0 bg-white">
+  <div class="flex justify-between pl-5  pr-8 laptop:px-10 items-center h-[80px] z-20 sticky top-0 bg-white shadow">
 
 <!--    logo-->
-    <router-link to="/">
-      <img alt="Logo" src="../../../public/images/trasko_logo.svg">
+    <router-link to="/" class=" h-full hover:scale-105 transition-all">
+      <img alt="Logo" src="../../../public/trasko_logo.svg" class="h-full">
     </router-link>
 
 <!--    desktop menu-->
@@ -11,7 +11,7 @@
       <router-link
           v-for="menuItem in menuItems"
           :key="menuItem.link"
-          class="p-2"
+          class="p-2 hover:text-orange transition-all"
           :to="menuItem.link"
       >
         {{ menuItem.name}}
@@ -41,7 +41,7 @@
         >
           {{ menuItem.name}}
         </router-link>
-        <router-link exact-active-class="pro-cleny" class="bg-primary p-2.5 rounded-2xl text-white" to="/pro_cleny" @click="toggleMobileNav">Pro členy</router-link>
+        <router-link active-class="pro-cleny" class="bg-orange p-2.5 rounded-2xl text-white" to="/pro_cleny" @click="toggleMobileNav" exact >Pro členy</router-link>
       </ul>
     </transition>
   </nav>
@@ -98,7 +98,7 @@ import {MenuItem} from "@/interfaces/interfaces";
 <style scoped>
 
   nav a {
-    font-weight: 500;
+    font-weight: 400;
   }
 
   nav a.router-link-active {
@@ -110,6 +110,16 @@ import {MenuItem} from "@/interfaces/interfaces";
     background-color: #FF9C81 !important;
     color: white !important;
   }
+
+  .a:hover{
+    background-color: #FF9C81 !important;
+    color: white !important;
+  }
+
+  /*#pro-cleny:hover{*/
+  /*  background-color: #FF9C81 !important;*/
+  /*  color: white !important;*/
+  /*}*/
 
   .bar1-active {
     transform: rotate(-44deg) translate(-6px,7px);

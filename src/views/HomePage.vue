@@ -1,7 +1,6 @@
 <template>
 
 <!--  Homepage box-->
-
   <div class="flex flex-col tablet:flex-row tablet:h-[calc(100vh-60px)] tablet:min-h-[600px] bg-greenLight overflow-hidden" id="homepageHeading">
     <div class="bg-greenLight text-greenDarkest flex justify-center flex-col h-full tablet:w-1/2 laptop:w-1/3 ">
       <div class="flex flex-col space-y-5 items-center p-14">
@@ -97,8 +96,9 @@
       let top =window.scrollY;
       let offset = item.offsetTop;
       let height = item.offsetHeight;
+      let relativeOffset = window.innerHeight * 0.8;
 
-      if(top >= (offset -500) && top < offset + height){
+      if(top >= (offset - relativeOffset) && top < offset + height){
         item.classList.add('show-animate')
       }
       // else{

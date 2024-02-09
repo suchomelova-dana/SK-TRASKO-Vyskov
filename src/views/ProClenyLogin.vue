@@ -3,14 +3,14 @@
 
 <!--    White box with input-->
     <div class="flex flex-col items-center gap-10 py-10 px-[5%] h-[450px] justify-center tablet:w-3/5 tablet:h-[calc(100vh-60px)] tablet:min-h-[450px]">
-      <p class="w-[350px]">Pro vstup do sekce pro členy je nutné zadat přístupové heslo</p>
+      <p class="w-[250px] tablet:w-[350px]">Pro vstup do sekce pro členy je nutné zadat přístupové heslo</p>
       <div>
         <input
             placeholder="heslo"
             type="password"
             v-model="input"
             id="input"
-            class="py-3 px-5 border-b-2 outline-none focus:outline-none focus:border-b-green focus:px-7 transition ease-in-out transition-all duration-200"
+            class="py-3 px-5 w-[200px] text-center tablet:text-left tablet:w-auto border-b-2 outline-none focus:outline-none focus:border-b-green focus:px-7 transition ease-in-out transition-all duration-200"
         >
         <p v-show="wrongPassword" class="text-xs text-red-500 p-3" id="wrongPassword">Nesprávné heslo</p>
       </div>
@@ -24,7 +24,7 @@
 
 <!--    Image-->
     <div
-        class="group w-full h-[450px] relative flex flex-col items-center justify-center tablet:w-2/5 tablet:h-[calc(100vh-60px)] tablet:min-h-[450px] "
+        class="group w-full h-[400px] relative shadow-xl flex flex-col items-center justify-center tablet:w-2/5 tablet:h-[calc(100vh-60px)] tablet:min-h-[450px] "
         id="imageBox"
     >
       <img src="images/login.jpg" alt="" class="object-cover w-full h-full">
