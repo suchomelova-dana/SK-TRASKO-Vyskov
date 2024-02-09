@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col w-auto items-center">
     <h3 class="uppercase text-orangeDark font-semibold p-5">Kalendář svazů</h3>
-    <div class="bg-orangeLight rounded-2xl flex flex-row p-5 tablet:flex-col">
+    <div class="bg-orangeLight rounded-2xl flex flex-row px-2 py-5 tablet:p-5 tablet:flex-col">
 
       <div class="flex flex-col gap-5 p-3">
         <h4 class="font-semibold text-orangeDark">Moderní gymnastika</h4>
