@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-[calc(100vh-60px)] flex flex-col w-full pb-20 px-[5%] tablet:items-start laptop:flex-row-reverse gap-5">
+  <div class="min-h-[calc(100vh-60px)] flex flex-col w-full pb-20 px-[5%] tablet:items-start laptop:flex-row-reverse gap-5 py-10 laptop:py-0">
 
     <UzitecneDokumenty class="w-full h-full laptop:w-1/4 laptop:h-[calc(100vh-60px)] laptop:flex laptop:justify-center laptop:sticky laptop:top-0"/>
 

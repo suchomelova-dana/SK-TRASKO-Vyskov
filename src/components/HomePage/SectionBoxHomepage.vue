@@ -1,6 +1,6 @@
 <template>
   <div class="py-7">
-    <div class="font-semibold p-10 " :class="textColor"> {{ sectionName }} : </div>
+    <div class="font-semibold p-10 text-lg" :class="textColor"> {{ sectionName }} : </div>
     <div class="flex flex-col items-center justify-center" :class="bgColor">
       <slot></slot>
     </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full px-[5%] py-5 " v-if="events.length !== 0">
+  <div class="w-full tablet:px-[5%] py-5 " v-if="events.length !== 0">
     <div>
       <h2 class="text-orange font-bold p-5 text-2xl">{{ year }}</h2>
     </div>

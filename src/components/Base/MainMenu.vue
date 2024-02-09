@@ -31,7 +31,7 @@
 <!--  mobile menu-->
   <nav>
     <transition name="mobile-nav">
-      <ul v-show="mobileNavOpened" class="flex flex-col fixed w-full h-[100vh] bg-white top-0 items-center overflow-hidden p-[100px] justify-between z-10">
+      <ul v-show="mobileNavOpened" class="flex flex-col fixed w-full h-calc(100%-80px) bg-white bottom-0 items-center overflow-hidden p-[100px] justify-between z-10">
         <router-link
             v-for="menuItem in menuItems"
             :key="menuItem.link"
@@ -41,7 +41,7 @@
         >
           {{ menuItem.name}}
         </router-link>
-        <router-link active-class="pro-cleny" class="bg-orange p-2.5 rounded-2xl text-white" to="/pro_cleny" @click="toggleMobileNav" exact >Pro členy</router-link>
+        <router-link active-class="pro-cleny" class="bg-primary p-2.5 rounded-2xl text-white" to="/pro_cleny" @click="toggleMobileNav" exact >Pro členy</router-link>
       </ul>
     </transition>
   </nav>
@@ -145,6 +145,10 @@ import {MenuItem} from "@/interfaces/interfaces";
 
   .mobile-nav-enter-to{
     transform: translateX(0);
+  }
+
+  .h-calc\(100\%-80px\){
+    height: calc(100% - 80px);
   }
 
 </style>
