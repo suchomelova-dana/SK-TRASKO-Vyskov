@@ -31,15 +31,15 @@ const vyrocniZpravySpolku : VyrocniZprava[] = [
     },
     {
         year: 2022,
-        pdf: 'vyrocni_zp_2022.pdf'
+        pdf: ''
     },
     {
         year: 2023,
-        pdf: 'vyrocni_zp_2023.pdf'
+        pdf: ''
     },
     {
         year: 2024,
-        pdf: 'vyrocni_zp_2024.pdf'
+        pdf: ''
     },
 ]
 
