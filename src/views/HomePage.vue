@@ -39,7 +39,7 @@
       <slot>
         <div class="bg-grayLight flex flex-col items-center space-y-8 p-8 tablet:flex-row">
           <div class="tablet:w-1/2 tablet:flex tablet:flex-col tablet:items-center">
-            <img src="../../public/obrazky/vanocni_besidka.jpg" alt=" " class="laptop:w-[90%]">
+            <img src="/obrazky/vanocni_besidka.jpg" alt=" " class="laptop:w-[90%]">
           </div>
           <div class="px-4 tablet:w-1/2">
             <h1 class="text-blue font-bold text-4xl laptop:text-6xl">Zveme Vás na Vánoční besídku</h1>
@@ -64,9 +64,9 @@
           <div class="w-[90%] text-blue pb-10 text-sm tablet:w-[60%]">Firma TRASKO, a.s. finančně zabezpečuje chod oddílu po celou dobu jeho působení, a dále oddílu vypomáhá také materiálně-technickým zabezpečením všech pořádaných akcí.</div>
 
           <div class="flex flex-col items-center justify-center laptop:flex-row">
-            <a href="https://www.vyskov-mesto.cz/" target="_blank" class="flex justify-center laptop:hover:scale-105 transition"><img class="h-[15vw] tablet:h-[100px] " src="../../public/obrazky/sponzori/vyskov_logo_MV_web.jpg"></a>
-            <a href="https://www.jmk.cz/" target="_blank" class="flex justify-center laptop:hover:scale-105 transition"><img class="h-[15vw] tablet:h-[100px]" src="../../public/obrazky/sponzori/Logotyp_jihomoravsky_kraj_RGB.jpg"></a>
-            <a href="https://nsa.gov.cz/" target="_blank" class="flex justify-center laptop:hover:scale-105 transition"><img class="h-[15vw] tablet:h-[100px]" src="../../public/obrazky/sponzori/Narodni%20sportovni%20agentura_logo%20rgb.jpg"></a>
+            <a href="https://www.vyskov-mesto.cz/" target="_blank" class="flex justify-center laptop:hover:scale-105 transition"><img class="h-[15vw] tablet:h-[100px] " src="/obrazky/sponzori/vyskov_logo_MV_web.jpg"></a>
+            <a href="https://www.jmk.cz/" target="_blank" class="flex justify-center laptop:hover:scale-105 transition"><img class="h-[15vw] tablet:h-[100px]" src="/obrazky/sponzori/Logotyp_jihomoravsky_kraj_RGB.jpg"></a>
+            <a href="https://nsa.gov.cz/" target="_blank" class="flex justify-center laptop:hover:scale-105 transition"><img class="h-[15vw] tablet:h-[100px]" src="/obrazky/sponzori/Narodni%20sportovni%20agentura_logo%20rgb.jpg"></a>
           </div>
           <div class="w-[90%] text-blue pb-10 text-sm tablet:w-[60%]">Činnost oddílu SK TRASKO Vyškov, z.s. a akce jím realizované jsou finančně podporovány městem Vyškov, Jihomoravským krajem a Národní sportovní agenturou.</div>
 
