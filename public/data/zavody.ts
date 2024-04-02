@@ -19,7 +19,7 @@ const zavody: Competition[] = [
         date: '21.10.2023',
         type: CompetitionType.spolecky,
         club: 'SK TRASKO Vyškov',
-        results: '  ',
+        results: 'TRASKO Cup 2023 - výsledky.pdf',
     },
     {
         name: 'Sametová stuha - Měnín',
@@ -38,7 +38,7 @@ const zavody: Competition[] = [
         date: '4.11.2023',
         type: CompetitionType.spolecky,
         club: 'SK TRASKO Vyškov',
-        results: '',
+        results: 'OP SS 2023 - výsledky.pdf',
     },
     {
         name: 'Creative Cups CUP - Přerov',

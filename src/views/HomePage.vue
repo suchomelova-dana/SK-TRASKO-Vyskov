@@ -17,7 +17,7 @@
       </div>
     </div>
     <img
-        src="../../public/images/homepage_photo.png"
+        src="../../public/obrazky/homepage_photo.png"
         alt=" "
         class="object-cover w-full tablet:w-1/2 tablet:h-[100vh-60px] laptop:w-2/3 transition-transform duration-200"
         id="homeImage"
@@ -34,12 +34,12 @@
   </section>
 
 <!--  Aktuality-->
-  <section id="sec-1" class="hide-animate">
+  <section id="aktualityRef" class="hide-animate scroll-mt-32" ref="aktualityRef">
     <SectionBoxHomepage id="aktuality" section-name="Aktuality" text-color="text-orange"  >
       <slot>
         <div class="bg-grayLight flex flex-col items-center space-y-8 p-8 tablet:flex-row">
           <div class="tablet:w-1/2 tablet:flex tablet:flex-col tablet:items-center">
-            <img src="../../public/images/vanocni_besidka.jpg" alt=" " class="laptop:w-[90%]">
+            <img src="../../public/obrazky/vanocni_besidka.jpg" alt=" " class="laptop:w-[90%]">
           </div>
           <div class="px-4 tablet:w-1/2">
             <h1 class="text-blue font-bold text-4xl laptop:text-6xl">Zveme Vás na Vánoční besídku</h1>
@@ -60,13 +60,13 @@
       <SectionBoxHomepage section-name="Sponzoři" text-color="text-blue">
       <slot>
         <div class="px-5 tablet:px-10 flex flex-col items-center justify-center ">
-          <a href="https://www.trasko.cz/" target="_blank" class="hover:scale-105 transition"><img src="../../public/images/sponzori/TRASKO_logo+pas__pos__sRGB.jpg" class="h-[140px] laptop:h-[200px]"></a>
+          <a href="https://www.trasko.cz/" target="_blank" class="hover:scale-105 transition"><img src="../../public/obrazky/sponzori/TRASKO_logo+pas__pos__sRGB.jpg" class="h-[140px] laptop:h-[200px]"></a>
           <div class="w-[90%] text-blue pb-10 text-sm tablet:w-[60%]">Firma TRASKO, a.s. finančně zabezpečuje chod oddílu po celou dobu jeho působení, a dále oddílu vypomáhá také materiálně-technickým zabezpečením všech pořádaných akcí.</div>
 
           <div class="flex flex-col items-center justify-center laptop:flex-row">
-            <a href="https://www.vyskov-mesto.cz/" target="_blank" class="flex justify-center laptop:hover:scale-105 transition"><img class="h-[15vw] tablet:h-[100px] " src="../../public/images/sponzori/vyskov_logo_MV_web.jpg"></a>
-            <a href="https://www.jmk.cz/" target="_blank" class="flex justify-center laptop:hover:scale-105 transition"><img class="h-[15vw] tablet:h-[100px]" src="../../public/images/sponzori/Logotyp_jihomoravsky_kraj_RGB.jpg"></a>
-            <a href="https://nsa.gov.cz/" target="_blank" class="flex justify-center laptop:hover:scale-105 transition"><img class="h-[15vw] tablet:h-[100px]" src="../../public/images/sponzori/Narodni%20sportovni%20agentura_logo%20rgb.jpg"></a>
+            <a href="https://www.vyskov-mesto.cz/" target="_blank" class="flex justify-center laptop:hover:scale-105 transition"><img class="h-[15vw] tablet:h-[100px] " src="../../public/obrazky/sponzori/vyskov_logo_MV_web.jpg"></a>
+            <a href="https://www.jmk.cz/" target="_blank" class="flex justify-center laptop:hover:scale-105 transition"><img class="h-[15vw] tablet:h-[100px]" src="../../public/obrazky/sponzori/Logotyp_jihomoravsky_kraj_RGB.jpg"></a>
+            <a href="https://nsa.gov.cz/" target="_blank" class="flex justify-center laptop:hover:scale-105 transition"><img class="h-[15vw] tablet:h-[100px]" src="../../public/obrazky/sponzori/Narodni%20sportovni%20agentura_logo%20rgb.jpg"></a>
           </div>
           <div class="w-[90%] text-blue pb-10 text-sm tablet:w-[60%]">Činnost oddílu SK TRASKO Vyškov, z.s. a akce jím realizované jsou finančně podporovány městem Vyškov, Jihomoravským krajem a Národní sportovní agenturou.</div>
 
@@ -85,9 +85,13 @@
   import CustomButton from "@/components/Base/CustomButton.vue";
   import MyCarousel from "@/components/HomePage/MyCarousel.vue";
   import SectionBoxHomepage from "@/components/HomePage/SectionBoxHomepage.vue";
+  import {ref} from "vue";
+
+  const aktualityRef = ref<HTMLElement | null>(null);
 
   function scrollToAktuality(){
-    document.getElementById('aktuality')?.scrollIntoView({ behavior: 'smooth' })
+    // document.getElementById('aktuality')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    aktualityRef.value?.scrollIntoView({behavior: "smooth", block: "start"});
   }
 
   let sections = document.getElementsByTagName('section')

@@ -5,20 +5,20 @@
     <div class="w-full laptop:w-3/5 bg-blueDark py-7 px-5">
       <h5 class="pb-3 font-semibold text-greenLight">Výroční zprávy spolku</h5>
       <div class="flex flex-row flex-wrap justify-center text-greenLight">
-        <a v-for="zprava in vyrocniZpravySpolku" :href="'PDFs/vyrocniZpravy/' + zprava.pdf" target="_blank" :key="zprava.year" class="py-1 px-2 hover:underline hover:text-white transition duration-200">{{zprava.year}}</a>
+        <a v-for="zprava in vyrocniZpravySpolku" :href="'/PDFs/vyrocniZpravy/' + zprava.pdf" target="_blank" :key="zprava.year" class="py-1 px-2 hover:underline hover:text-white transition duration-200">{{zprava.year}}</a>
       </div>
     </div>
 
 <!--    Odkazy-->
     <div class="w-full laptop:w-2/5 bg-gray-600 flex flex-row justify-center flex-wrap items-center gap-16 py-7 px-5 text-greenLight text-lg font-semibold">
         <a class="hover:text-white transition duration-200 hover:scale-105" href="https://www.rgform.eu/menu.php" target="_blank">
-          <img src="images/odkazy/ksis.png" alt="" class="w-[100px]">
+          <img src="/obrazky/odkazy/ksis.png" alt="a" class="w-[100px]">
         </a>
         <a class="hover:text-white transition duration-200 hover:scale-105" href="https://www.csmg.cz/" target="_blank">
-          <img src="images/odkazy/csmg.png" alt="" class="w-[100px]">
+          <img src="/obrazky/odkazy/csmg.png" alt="b" class="w-[100px]">
         </a>
         <a class="hover:text-white transition duration-200 hover:scale-105" href="https://csesg.cz/" target="_blank">
-          <img src="images/odkazy/csesg.png" alt="" class="w-[100px]">
+          <img src="/obrazky/odkazy/csesg.png" alt="c" class="w-[100px]">
         </a>
     </div>
   </div>
@@ -27,7 +27,7 @@
 <!--  Footer-->
   <div class="bg-greenLight flex flex-col-reverse tablet:flex-row items-center py-10 gap-10 justify-between tablet:px-10 laptop:py-4">
     <router-link to="/" class="">
-      <img alt="Logo" src="../../../public/trasko_logo.svg" class="h-[70px]">
+      <img alt="Logo" src="/trasko_logo.svg" class="h-[70px]">
     </router-link>
 
     <div class="flex flex-col laptop:flex-row  gap-5 laptop:mx-5 laptop:items-center ">

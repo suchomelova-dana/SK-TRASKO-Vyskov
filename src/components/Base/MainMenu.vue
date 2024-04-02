@@ -3,7 +3,7 @@
 
 <!--    logo-->
     <router-link to="/" class=" h-full hover:scale-105 transition-all" @click="mobileNavOpened = false">
-      <img alt="Logo" src="../../../public/trasko_logo.svg" class="h-full">
+      <img alt="Logo" src="/trasko_logo.svg" class="h-full">
     </router-link>
 
 <!--    desktop menu-->

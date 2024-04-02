@@ -11,7 +11,7 @@
           <div v-for="event in getMontEvents(month)" :key="event" class="flex flex-row items-start px-5 laptop:px-10 p-2  w-[100%] text-greenDarkest">
             <span class="w-[120px] flex font-medium ">{{event.date}}</span>
             <span class="flex w-calc">{{ event.name}}</span>
-            <a href="" target="_blank" v-if="event.results" class=" text-green text-sm font-semibold  underline pl-3 "> výsledky </a>
+            <a :href="'/PDFs/vysledky/' + event.results" target="_blank" v-if="event.results" class=" text-green text-sm font-semibold  underline pl-3 "> výsledky </a>
           </div>
         </div>
       </div>

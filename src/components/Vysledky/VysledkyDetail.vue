@@ -34,7 +34,7 @@
             :key="item.name"
             class="flex flex-row w-[100%] bg-opacity-40 group hover:bg-opacity-60 transition-all  "
             :class="'bg-' + getColor() + 'Light'"
-            href=""
+            :href="'/PDFs/vysledky/' + item.results"
             target="_blank"
         >
           <div class="p-5 bg-opacity-40 flex-grow text-left laptop:px-10 rounded " >
@@ -123,7 +123,7 @@ import {defineProps, onMounted, ref, withDefaults} from 'vue'
   const competitionsToRender = ref<Competition[]>([])
 
   function getCompetitionsToRender(){
-    competitionsToRender.value = zavody.filter((comp) => comp.date.endsWith(activeYear.value.toString())  && comp.results != null && comp.results !== '')
+    competitionsToRender.value = zavody.filter((comp) => comp.date.endsWith(activeYear.value.toString())  && comp.results != null && comp.results !== '' && comp.type === props.compType)
   }
 
   onMounted(() => {

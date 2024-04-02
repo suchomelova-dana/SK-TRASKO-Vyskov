@@ -14,7 +14,7 @@
 
       <div class="my-slider">
         <div v-for="item in pictures" :key="item.image">
-          <img :src="'images/carousel/' + item.image" alt="ahoj" class="h-[300px] laptop:h-[400px]">
+          <img :src="'obrazky/carousel/' + item.image" alt="ahoj" class="h-[300px] laptop:h-[400px]">
         </div>
 
       </div>

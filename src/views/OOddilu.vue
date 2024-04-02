@@ -4,13 +4,13 @@
 <!--  O oddilu-->
   <div class="bg-greenLight flex items-center flex-col laptop:flex-row">
     <div class="w-full h-[300px] laptop:h-[500px] laptop:w-1/2 laptop:mt-[30px] laptop:mb-[-40px] " id="image">
-      <img src="images/zavody/esg.jpg" alt="" class="h-full object-cover w-full shadow-xl rounded-r">
+      <img src="obrazky/zavody/esg.jpg" alt="" class="h-full object-cover w-full shadow-xl rounded-r">
     </div>
 
     <div class="flex flex-col gap-10 laptop:w-1/2 px-[10%] laptop:px-[5%] py-5 justify-center">
       <h3 class="text-blue text-lg font-semibold px-[5%] ">Historie oddílu</h3>
       <p>Klub <strong>SK TRASKO Vyškov </strong>byl založen v lednu 2000 pod původním názvem SK QUANTUM MONTÁŽE Vyškov. U jeho založení stála MUDr.Kateřina Kapounková. Od počátku existence je klub registrován u ČSMG v Praze. Na základě přání hlavního sponzora došlo v prosinci téhož roku ke změně názvu na SK TRASKO VYŠKOV. Kvalitní zázemí našel klub na ZŠ Purkyňova.</p>
-      <p>SK TRASKO VYŠKOV sdružuje děvčata z Vyškova a okolí, která ve věnují cvičení a závodění dle <span class="text-green underline">pravidel moderní gymnastiky (jednotlivkyně i společné skladby) </span>a dle  <span class="text-green underline">pravidel estetické skupinové gymnastiky (ESG)</span>. Jsme hodnoceni opakovaně jako jeden z nejúspěšnějších sportovních oddílů Vyškova. Nové členky jsou vítány.</p>
+      <p>SK TRASKO VYŠKOV sdružuje děvčata z Vyškova a okolí, která ve věnují cvičení a závodění dle <a class="text-green underline" href="https://www.csmg.cz/" target="_blank">pravidel moderní gymnastiky (jednotlivkyně i společné skladby) </a>a dle  <a class="text-green underline" href="https://csesg.cz/" target="_blank">pravidel estetické skupinové gymnastiky (ESG)</a>. Jsme hodnoceni opakovaně jako jeden z nejúspěšnějších sportovních oddílů Vyškova. Nové členky jsou vítány.</p>
     </div>
   </div>
 

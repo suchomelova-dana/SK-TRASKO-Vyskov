@@ -27,7 +27,7 @@
         class="group w-full h-[400px] relative shadow-xl flex flex-col items-center justify-center tablet:w-2/5 tablet:h-[calc(100vh-60px)] tablet:min-h-[450px] "
         id="imageBox"
     >
-      <img src="images/login.jpg" alt="" class="object-cover w-full h-full">
+      <img src="/obrazky/login.jpg" alt="" class="object-cover w-full h-full">
       <div class="bg-black bg-opacity-60 absolute top-0 h-full w-full"></div>
       <h1 class="text-5xl absolute m-auto left-0 right-0 text-white font-bold px-[10%] tablet:px-[3%]">Informace <br> pro členy</h1>
     </div>
