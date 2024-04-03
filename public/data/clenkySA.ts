@@ -9,7 +9,6 @@ const SAmembers : Member[] = [
     { name: 'Sochorová Zuzana' },
     { name: 'Šlapakova Apolena' },
     { name: 'Šmakalová Iveta' },
-    { name: 'Vágnerová Karin' },
     { name: 'Vágnerová Linda' },
     { name: 'Vejrostová Laura' },
 ]

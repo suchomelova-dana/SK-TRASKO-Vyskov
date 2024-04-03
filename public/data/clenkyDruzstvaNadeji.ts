@@ -5,7 +5,6 @@ const clenkyDruzstvaNadeji : Member[] = [
     { name: 'Holubová Kateřina' },
     { name: 'Střelcová Lilien' },
     { name: 'Šmakalová Iveta' },
-    { name: 'Vágnerová Karin' },
     { name: 'Vejrostová Laura' },
 ]
 

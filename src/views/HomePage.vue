@@ -28,7 +28,7 @@
   <section class="hide-animate">
     <div class="bg-white p-[90px] space-y-6 px-[10%] flex flex-col tablet:flex-row tablet:justify-between tablet:space-y-0 laptop:px-[15%]">
       <div class="bg-orangeLight text-orangeDark p-5 px-10 tablet:w-[30%] flex justify-center flex-col">Trénujeme moderní a estetickou skupinovou gymnastiku</div>
-      <div class="bg-orangeLight text-orangeDark p-5 px-10  tablet:w-[30%] flex justify-center flex-col">Jezdíme na závody po celé České republice i mimo ní.</div>
+      <div class="bg-orangeLight text-orangeDark p-5 px-10  tablet:w-[30%] flex justify-center flex-col">Jezdíme na závody po celé České republice i mimo ní</div>
       <div class="bg-orangeLight text-orangeDark p-5 px-10 tablet:w-[30%] flex justify-center flex-col">Kromě závodů pořádáme také každoroční akce jako Akademie a Vánoční besídky</div>
     </div>
   </section>
@@ -38,12 +38,13 @@
     <SectionBoxHomepage id="aktuality" section-name="Aktuality" text-color="text-orange"  >
       <slot>
         <div class="bg-grayLight flex flex-col items-center space-y-8 p-8 tablet:flex-row">
-          <div class="tablet:w-1/2 tablet:flex tablet:flex-col tablet:items-center">
-            <img src="/obrazky/vanocni_besidka.jpg" alt=" " class="laptop:w-[90%]">
-          </div>
-          <div class="px-4 tablet:w-1/2">
-            <h1 class="text-blue font-bold text-4xl laptop:text-6xl">Zveme Vás na Vánoční besídku</h1>
-          </div>
+<!--          <div class="tablet:w-1/2 tablet:flex tablet:flex-col tablet:items-center">-->
+<!--            <img src="/obrazky/vanocni_besidka.jpg" alt=" " class="laptop:w-[90%]">-->
+<!--          </div>-->
+<!--          <div class="px-4 tablet:w-1/2">-->
+<!--            <h1 class="text-blue font-bold text-4xl laptop:text-6xl">Zveme Vás na Vánoční besídku</h1>-->
+<!--          </div>-->
+          Momentálně nejsou k dispozici žádné aktuality
         </div>
       </slot>
     </SectionBoxHomepage>

@@ -1,4 +1,4 @@
-const carouselHeading = 'Naše holky na Mistrovství České republiky 2023 ve společných skladbách:'
+const carouselHeading = 'Naše děvčata na Mistrovství České republiky 2023 ve společných skladbách:'
 
 const pictures = [
     {image: 'car1.jpg'},
