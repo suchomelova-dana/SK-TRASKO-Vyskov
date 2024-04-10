@@ -115,7 +115,7 @@ const zavody: Competition[] = [
         date: '7.4.2024',
         type: CompetitionType.esg,
         club: 'SK TRASKO Vyškov',
-        results: '',
+        results: 'ESG II - výsledky.pdf',
     },
     {
         name: 'Přerovská stuha',
