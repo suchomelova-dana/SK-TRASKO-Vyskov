@@ -27,26 +27,26 @@
     </div>
 
 <!--    Competition content-->
-    <div class=" flex flex-col flex-grow items-center laptop:items-end py-5 my-auto slide-from-right" v-if="competitionsToRender.length !== 0">
-      <div class=" flex flex-col gap-5 w-3/4  justify-end items-end my-auto " >
+    <div class=" flex flex-col flex-grow items-center laptop:items-end py-5 my-auto tablet:slide-from-right" v-if="competitionsToRender.length !== 0">
+      <div class=" flex flex-col gap-5 w-11/12 tablet:w-3/4 justify-end items-end my-auto " >
         <a
             v-for="item in competitionsToRender"
             :key="item.name"
-            class="flex flex-row w-[100%] bg-opacity-40 group hover:bg-opacity-60 transition-all  "
+            class="flex flex-col tablet:flex-row w-[100%] bg-opacity-40 group tablet:hover:bg-opacity-60 tablet:transition-all  "
             :class="'bg-' + getColor() + 'Light'"
             :href="'/PDFs/vysledky/' + item.results"
             target="_blank"
         >
           <div class="p-5 bg-opacity-40 flex-grow text-left laptop:px-10 rounded " >
-            <h2 class="text-xl font-semibold" :class="'text-' + getColor() + 'Dark'">{{ item.name }}</h2>
+            <h2 class="text-lg tablet:text-xl font-semibold" :class="'text-' + getColor() + 'Dark'">{{ item.name }}</h2>
             <h3 class="text-black" >{{ item.club }}</h3>
             <h4 class="text-gray-400" >{{ item.date }}</h4>
           </div>
 
           <div
-              class="p-5 flex flex-col justify-center group-hover:px-7 transition-all duration-200 rounded-r"
+              class="p-3 tablet:p-5 flex flex-col justify-center tablet:group-hover:px-7 tablet:transition-all tablet:duration-200 rounded-b tablet:rounded-r"
               :class="['bg-' + getColor() + 'Light', 'hover:bg-' + getColor(), {'group-hover:bg-green' : props.compType === CompetitionType.spolecky, 'group-hover:bg-orange' : props.compType === CompetitionType.jednotlivci, 'group-hover:bg-blue' : props.compType === CompetitionType.esg }]">
-              <div class="underline text-[16px] transition duration-200 group-hover:text-white" :class="'text-' + getColor()">výsledky</div>
+              <div class="underline text-[16px] transition duration-200 tablet:group-hover:text-white" :class="'text-' + getColor()">výsledky</div>
           </div>
         </a>
       </div>

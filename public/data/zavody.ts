@@ -111,7 +111,7 @@ const zavody: Competition[] = [
         club: 'TJ Slavia Hradec Králové',
     },
     {
-        name: 'ESG CUP II. - + Regionální přebor Morava - Vyškov',
+        name: 'ESG CUP II. + Regionální přebor Morava - Vyškov',
         date: '7.4.2024',
         type: CompetitionType.esg,
         club: 'SK TRASKO Vyškov',
