@@ -37,15 +37,15 @@
   <section id="aktualityRef" class="hide-animate scroll-mt-32" ref="aktualityRef">
     <SectionBoxHomepage id="aktuality" section-name="Aktuality" text-color="text-orange"  >
       <slot>
-        <div class="bg-grayLight flex flex-col items-center space-y-8 p-8 tablet:flex-row">
-<!--          <div class="tablet:w-1/2 tablet:flex tablet:flex-col tablet:items-center">-->
-<!--            <img src="/obrazky/vanocni_besidka.jpg" alt=" " class="laptop:w-[90%]">-->
-<!--          </div>-->
-<!--          <div class="px-4 tablet:w-1/2">-->
-<!--            <h1 class="text-blue font-bold text-4xl laptop:text-6xl">Zveme Vás na Vánoční besídku</h1>-->
-<!--          </div>-->
-          Momentálně nejsou k dispozici žádné aktuality
-        </div>
+        <ul class="bg-grayLight w-full py-8 pl-12 pr-8 tablet:p-20 tablet:px-32 list-disc text-green text-lg">
+          <li class="p-2 text-left" v-for="item in aktuality" :key="item.title">
+              <span class="text-gray-500 ">{{item.title}}</span>
+              <span v-if="item.PDF" class="text-gray-500 "> - </span>
+              <span>
+                <a :href="'PDFs/aktuality/' + item.PDF" target="_blank" class="text-green hover:text-greenDark">  {{item.PDFtitle}}</a>
+              </span>
+          </li>
+        </ul>
       </slot>
     </SectionBoxHomepage>
   </section>
@@ -87,6 +87,7 @@
   import MyCarousel from "@/components/HomePage/MyCarousel.vue";
   import SectionBoxHomepage from "@/components/HomePage/SectionBoxHomepage.vue";
   import {ref} from "vue";
+  import aktuality from "../../public/data/aktuality";
 
   const aktualityRef = ref<HTMLElement | null>(null);
 

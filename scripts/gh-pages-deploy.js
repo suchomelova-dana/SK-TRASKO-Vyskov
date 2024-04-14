@@ -7,8 +7,14 @@ const fs = require("fs");
         await execa("echo", ["sktrasko.cz", ">","CNAME"]);
         console.log("Building...");
         await execa("npm", ["run", "build"]);
+
         // Understand if it's dist or build folder
         const folderName = fs.existsSync("dist") ? "dist" : "build";
+
+        // Copy content of index.html to 404.html
+        const indexContent = fs.readFileSync(`${folderName}/index.html`, "utf8");
+        fs.writeFileSync(`${folderName}/404.html`, indexContent);
+
         fs.writeFileSync(`${folderName}/CNAME`, "sktrasko.cz");
         await execa("git", ["--work-tree", folderName, "add", "--all"]);
         await execa("git", ["--work-tree", folderName, "commit", "-m", "gh-pages"]);

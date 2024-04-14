@@ -53,5 +53,12 @@ interface VyrocniZprava {
     pdf: string
 }
 
-export {MenuItem, ZavodyBtn, Competition, Coach, JudgesList, Member, Document, Information, VyrocniZprava}
+interface Aktualita {
+    title: string,
+    PDF?: string,
+    PDFtitle?: string,
+    image?: string,
+}
+
+export {MenuItem, ZavodyBtn, Competition, Coach, JudgesList, Member, Document, Information, VyrocniZprava, Aktualita}
 
