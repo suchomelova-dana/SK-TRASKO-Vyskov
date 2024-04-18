@@ -11,6 +11,11 @@ const aktuality : Aktualita[] = [
         PDFtitle: 'časový program',
         PDF: 'O pohar mesta Vyskova 2024 - časový program.pdf'
     },
+    {
+        title: 'O pohár města Vyškova',
+        PDFtitle: 'rotace',
+        PDF: 'O pohár města Vyškova - rotace.pdf'
+    },
 
 ]
 
