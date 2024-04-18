@@ -29,18 +29,11 @@ const vyrocniZpravySpolku : VyrocniZprava[] = [
         year: 2021,
         pdf: 'vyrocni_zp_2021.pdf'
     },
-    // {
-    //     year: 2022,
-    //     pdf: ''
-    // },
-    // {
-    //     year: 2023,
-    //     pdf: ''
-    // },
-    // {
-    //     year: 2024,
-    //     pdf: ''
-    // },
+    {
+         year: 2022,
+         pdf: 'Výroční zpráva za rok 2022.pdf'
+    },
+    
 ]
 
 export default vyrocniZpravySpolku
