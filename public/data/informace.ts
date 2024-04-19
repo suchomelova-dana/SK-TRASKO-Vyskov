@@ -121,6 +121,16 @@ const informace : Information[] = [
         pdf: 'Informace 12_4_2024.pdf',
         description: 'Vyškovský pohár',
     },
+    {
+        date: '18.4.2024',
+        pdf: 'závody 2024-k 10.4..pdf',
+        description: 'závody jaro 2024 - k 10.4.',
+    },
+    {
+        date: '18.4.2024',
+        pdf: 'Informace 18.4.2024.pdf',
+        description: '',
+    },
 ]
 
 export default informace.reverse()
