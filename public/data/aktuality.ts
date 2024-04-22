@@ -7,15 +7,11 @@ const aktuality : Aktualita[] = [
         PDF: 'O pohar mesta Vyskova 2024.pdf'
     },
     {
-        title: 'O pohár města Vyškova',
+        title: 'Přebor jihomoravské soutěžní odblasti NML A a NST A',
         PDFtitle: 'časový program',
-        PDF: 'O pohar mesta Vyskova 2024 - časový program.pdf'
+        PDF: 'OP NML a NST-casovy program.pdf'
     },
-    {
-        title: 'O pohár města Vyškova',
-        PDFtitle: 'rotace',
-        PDF: 'O pohár města Vyškova - rotace.pdf'
-    },
+    
 
 ]
 
