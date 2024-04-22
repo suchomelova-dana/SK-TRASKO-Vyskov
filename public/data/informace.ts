@@ -127,9 +127,9 @@ const informace : Information[] = [
         description: 'závody jaro 2024 - k 10.4.',
     },
     {
-        date: '18.4.2024',
-        pdf: 'Informace 18.4.2024.pdf',
-        description: '',
+        date: '22.4.2024',
+        pdf: 'Informace 22_4_2024.pdf',
+        description: 'OP NML A a NST A',
     },
 ]
 
