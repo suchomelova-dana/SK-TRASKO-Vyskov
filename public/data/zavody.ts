@@ -103,12 +103,14 @@ const zavody: Competition[] = [
         date: '6.4.2024',
         type: CompetitionType.jednotlivci,
         club: 'SK MG Mantila Brno',
+        results: 'Mantilácký tulipánek 2024 - výsledky.pdf',
     },
     {
         name: 'RG CUP - Hradec Králové',
         date: '6.4.2024',
         type: CompetitionType.jednotlivci,
         club: 'TJ Slavia Hradec Králové',
+        
     },
     {
         name: 'ESG CUP II. + Regionální přebor Morava - Vyškov',
@@ -122,18 +124,21 @@ const zavody: Competition[] = [
         date: '13.4.2024',
         type: CompetitionType.jednotlivci,
         club: 'TJ Spartak Přerov',
+        results: 'Přerovská stuha 2024 - výsledky.pdf',
     },
     {
         name: '14.4.AJUR CUP - Hradec Králové',
         date: '14.4.2024',
         type: CompetitionType.jednotlivci,
         club: 'SK MG Ajur Hradec Králové',
+        results: 'AJUR Cup 2024 - výsledky.pdf',
     },
     {
         name: 'UPREAL CUP - Tábor',
         date: '14.4.2024',
         type: CompetitionType.jednotlivci,
         club: 'Akademie MG KP',
+        results: 'UPREAL Cup 2024 - výsledky.pdf',
     },
     {
         name: 'O pohár města Vyškova',
