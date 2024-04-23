@@ -58,12 +58,14 @@ const zavody: Competition[] = [
         date: '18.11.2023',
         type: CompetitionType.spolecky,
         club: 'SSK Vítkovice, SK MG Havířov',
+        results: 'MČR SS 2023 - výsledky.pdf',
     },
     {
         name: 'MČR dvojic a trojic - Ostrava',
         date: '19.11.2023',
         type: CompetitionType.spolecky,
-        club: 'SSK Vítkovice, SK MG Havířov',
+        club: 'SSK Vítkovice, SK MG Havířov', 
+        results: 'MČR DT 2023 - výsledky.pdf',
     },
     {
         name: 'KZ I - Vyškov',
