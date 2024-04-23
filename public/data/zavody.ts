@@ -13,6 +13,7 @@ const zavody: Competition[] = [
         date: '15.10.2023',
         type: CompetitionType.spolecky,
         club: 'SK MG Ajur Hrades Králové',
+        results: 'O Hradeckou stuhu 2023 - výsledky.pdf',
     },
     {
         name: 'TRASKO CUP',
@@ -53,8 +54,14 @@ const zavody: Competition[] = [
         club: 'SK MG Máj České Budějovice',
     },
     {
-        name: 'MČR - Ostrava',
-        date: '18.-19.11.2023',
+        name: 'MČR společných skladeb linie A - Ostrava',
+        date: '18.11.2023',
+        type: CompetitionType.spolecky,
+        club: 'SSK Vítkovice, SK MG Havířov',
+    },
+    {
+        name: 'MČR dvojic a trojic - Ostrava',
+        date: '19.11.2023',
         type: CompetitionType.spolecky,
         club: 'SSK Vítkovice, SK MG Havířov',
     },
