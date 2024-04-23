@@ -86,7 +86,7 @@ const zavody: Competition[] = [
         club: 'SK MG Mantila Brno',
     },
     {
-        name: 'KZ V - Vyškov + Mezioddílový závod Vyškov',
+        name: 'Mezioddílový závod Vyškov',
         date: '17.3.2024',
         type: CompetitionType.jednotlivci,
         club: 'SK TRASKO Vyškov',
@@ -105,13 +105,6 @@ const zavody: Competition[] = [
         type: CompetitionType.jednotlivci,
         club: 'SK MG Mantila Brno',
         results: 'Mantilácký tulipánek 2024 - výsledky.pdf',
-    },
-    {
-        name: 'RG CUP - Hradec Králové',
-        date: '6.4.2024',
-        type: CompetitionType.jednotlivci,
-        club: 'TJ Slavia Hradec Králové',
-        
     },
     {
         name: 'ESG CUP II. + Regionální přebor Morava - Vyškov',
