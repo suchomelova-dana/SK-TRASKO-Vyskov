@@ -97,6 +97,7 @@ const zavody: Competition[] = [
         date: '24.3.2024',
         type: CompetitionType.esg,
         club: 'SK MG Baver Třebíč',
+        results: 'ESG Cup I - BAVER CUP - výsledky.pdf',
     },
     {
         name: 'Mantilácký tulipánek - Brno',
