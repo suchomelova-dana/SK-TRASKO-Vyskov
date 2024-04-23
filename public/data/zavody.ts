@@ -140,7 +140,7 @@ const zavody: Competition[] = [
         date: '20.4.2024',
         type: CompetitionType.jednotlivci,
         club: 'SK TRASKO Vyškov',
-        results: '',
+        results: 'O pohár města Vyškova 2024 - výsledky.pdf',
     },
     {
         name: 'OP SEN B, JUN B, NST B, NML B - Mantila Brno',
@@ -153,7 +153,7 @@ const zavody: Competition[] = [
         date: '28.4.2024',
         type: CompetitionType.jednotlivci,
         club: 'SK TRASKO Vyškov',
-        results: 'O pohár města Vyškova 2024 - výsledky.pdf',
+        results: '',
     },
     {
         name: 'ESG CUP IV. + MČR v krátkém programu - Klánovice',
