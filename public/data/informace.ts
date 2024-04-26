@@ -136,6 +136,11 @@ const informace : Information[] = [
         pdf: 'Informace 23.4.2024.pdf',
         description: '',
     },
+    {
+        date: '26.4.2024',
+        pdf: 'Upřesnění nominace OP + ESG.pdf',
+        description: 'Upřesnění nominace OP + ESG',
+    },
 ]
 
 export default informace.reverse()
