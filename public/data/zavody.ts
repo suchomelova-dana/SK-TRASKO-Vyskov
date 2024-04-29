@@ -155,6 +155,7 @@ const zavody: Competition[] = [
         date: '27.4.2024',
         type: CompetitionType.jednotlivci,
         club: 'SK MG Mantila Brno',
+        results: 'OP B - výsledky.pdf',
     },
     {
         name: 'OP NML A, NST A, - Vyškov',
