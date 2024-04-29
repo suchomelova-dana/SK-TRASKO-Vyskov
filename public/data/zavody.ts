@@ -161,7 +161,7 @@ const zavody: Competition[] = [
         date: '28.4.2024',
         type: CompetitionType.jednotlivci,
         club: 'SK TRASKO Vyškov',
-        results: 'OP NML A a NST A 2024 - výsledky',
+        results: 'OP NML A a NST A 2024 - výsledky.pdf',
     },
     {
         name: 'ESG CUP IV. + MČR v krátkém programu - Klánovice',
