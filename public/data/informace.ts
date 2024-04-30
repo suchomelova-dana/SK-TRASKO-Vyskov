@@ -141,6 +141,11 @@ const informace : Information[] = [
         pdf: 'Upřesnění nominace OP + ESG.pdf',
         description: 'Upřesnění nominace OP + ESG',
     },
+    {
+        date: '29.4.2024',
+        pdf: 'Informace 29.4.2024.pdf',
+        description: 'Informace k Milevsku, Ostravě a SPRING Cupu',
+    },
 ]
 
 export default informace.reverse()
