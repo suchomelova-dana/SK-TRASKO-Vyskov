@@ -174,7 +174,7 @@ const zavody: Competition[] = [
         name: 'OP JUN A + SEN A - Tart Brno',
         date: '1.5.2024',
         type: CompetitionType.jednotlivci,
-        club: 'SK Tart MS Brno',  
+        club: 'SK MG Moravská Slavia Brno',  
         results: 'OP JUN A a SEN A.pdf',
     },
     {
