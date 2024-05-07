@@ -146,6 +146,11 @@ const informace : Information[] = [
         pdf: 'Informace 29.4.2024.pdf',
         description: 'Informace k Milevsku, Ostravě a SPRING Cupu',
     },
+    {
+        date: '4.5.2024',
+        pdf: 'Informace 4.5.2024.pdf',
+        description: 'Rozvrh od 6. 5., MČR NST B, JUN B',
+    },
 ]
 
 export default informace.reverse()
