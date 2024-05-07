@@ -99,7 +99,7 @@ const zavody: Competition[] = [
         date: '17.3.2024',
         type: CompetitionType.jednotlivci,
         club: 'SK TRASKO Vyškov',
-        results: '',
+        results: 'MZ Vyškov 2024 - výsledky.pdf',
     },
     {
         name: 'ESG CUP I. Třebíč',
@@ -174,7 +174,8 @@ const zavody: Competition[] = [
         name: 'OP JUN A + SEN A - Tart Brno',
         date: '1.5.2024',
         type: CompetitionType.jednotlivci,
-        club: 'SK Tart MS Brno',
+        club: 'SK Tart MS Brno',  
+        results: 'OP JUN A a SEN A.pdf',
     },
     {
         name: 'Pohár města Ostravy',
@@ -187,6 +188,14 @@ const zavody: Competition[] = [
         date: '4.5.2024',
         type: CompetitionType.jednotlivci,
         club: 'Proactive Milevsko',
+        results: 'Milevský pohárek - výsledky.pdf',
+    },
+    {
+        name: 'Spring Cup',
+        date: '5.5.2024',
+        type: CompetitionType.jednotlivci,
+        club: 'SK MG Moravská Slavia Brno',
+        results: 'Spring Cup - výsledky.pdf',
     },
     {
         name: 'ESG CUP V. - Mantila Brno',
