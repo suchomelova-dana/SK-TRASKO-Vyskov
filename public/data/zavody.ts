@@ -169,6 +169,7 @@ const zavody: Competition[] = [
         date: '1.5.2024',
         type: CompetitionType.esg,
         club: 'Astra Klánovice',
+        results: 'ESG Cup IV a MČR KP - výsledky.pdf',
     },
     {
         name: 'OP JUN A + SEN A - Tart Brno',
