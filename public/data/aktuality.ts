@@ -7,6 +7,11 @@ const aktuality : Aktualita[] = [
         PDF: 'Traskacek 2024.pdf'
         },
         {
+        title: 'Traskáček',
+        PDFtitle: 'časový program',
+        PDF: 'Traskacek 2024_casovy program.pdf'
+        },
+        {
         title: '4. 5. Informace pro členy',
         PDFtitle: '',
         PDF: ''
