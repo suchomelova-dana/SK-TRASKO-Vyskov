@@ -199,10 +199,11 @@ const zavody: Competition[] = [
         results: 'Spring Cup - výsledky.pdf',
     },
     {
-        name: 'ESG CUP V. - Mantila Brno',
+        name: 'ESG CUP V. + OP v ESG - Mantila Brno',
         date: '8.5.2024',
         type: CompetitionType.esg,
         club: 'SK MG Mantila Brno',
+        results: 'ESG Cup V - výsledky.pdf',
     },
     {
         name: 'MČR NST B + JUN B',
