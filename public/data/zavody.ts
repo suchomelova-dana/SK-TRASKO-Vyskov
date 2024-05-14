@@ -206,16 +206,18 @@ const zavody: Competition[] = [
         results: 'ESG Cup V - výsledky.pdf',
     },
     {
-        name: 'MČR NST B + JUN B',
+        name: 'MČR JUN B',
         date: '11.5.2024',
-        type: CompetitionType.jednotlivci,
+        type: CompetitionType.jednotlivci, MČR 
         club: 'SK Provo Brno',
+        results: 'MČR JUN B - výsledky.pdf',
     },
     {
-        name: 'MČR NST B + JUN B',
+        name: 'MČR NST B',
         date: '12.5.2024',
         type: CompetitionType.jednotlivci,
         club: 'SK Provo Brno',
+        results: 'MČR NST B - výsledky.pdf',
     },
     {
         name: 'Spring Tart Cup Brno',
