@@ -226,14 +226,8 @@ const zavody: Competition[] = [
         club: 'TJ ZŠ Hostivař',
     },
     {
-        name: 'MČR SEN B + NML B - Milevsko',
+        name: 'MČR SEN B - Milevsko',
         date: '18.5.2024',
-        type: CompetitionType.jednotlivci,
-        club: 'Proactive Milevsko',
-    },
-    {
-        name: 'MČR SEN B + NML B - Milevsko',
-        date: '19.5.2024',
         type: CompetitionType.jednotlivci,
         club: 'Proactive Milevsko',
     },
