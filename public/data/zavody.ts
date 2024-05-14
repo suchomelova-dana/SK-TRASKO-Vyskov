@@ -208,7 +208,7 @@ const zavody: Competition[] = [
     {
         name: 'MČR JUN B',
         date: '11.5.2024',
-        type: CompetitionType.jednotlivci, MČR 
+        type: CompetitionType.jednotlivci,  
         club: 'SK Provo Brno',
         results: 'MČR JUN B - výsledky.pdf',
     },
