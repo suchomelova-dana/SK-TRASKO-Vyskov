@@ -220,12 +220,6 @@ const zavody: Competition[] = [
         results: 'MČR NST B - výsledky.pdf',
     },
     {
-        name: 'Spring Tart Cup Brno',
-        date: '18.5.2024',
-        type: CompetitionType.jednotlivci,
-        club: 'SK Tart MS Brno',
-    },
-    {
         name: 'Hostivař Cup',
         date: '18.5.2024',
         type: CompetitionType.jednotlivci,
