@@ -93,7 +93,7 @@ const zavody: Competition[] = [
         date: '9.3.2024',
         type: CompetitionType.jednotlivci,
         club: 'SK MG Mantila Brno',
-        results: 'MZ 9.3. - výsledky.pdf',
+        results: 'MZ 9.3 - výsledky.pdf',
     },
     {
         name: 'Mezioddílový závod Vyškov',
