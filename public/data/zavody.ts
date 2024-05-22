@@ -221,16 +221,11 @@ const zavody: Competition[] = [
         results: 'MČR NST B - výsledky.pdf',
     },
     {
-        name: 'Hostivař Cup',
-        date: '18.5.2024',
-        type: CompetitionType.jednotlivci,
-        club: 'TJ ZŠ Hostivař',
-    },
-    {
         name: 'MČR SEN B - Milevsko',
         date: '18.5.2024',
         type: CompetitionType.jednotlivci,
         club: 'Proactive Milevsko',
+        results: 'MČR SEN B - výsledky.pdf', 
     },
     {
         name: 'Traskáček',
