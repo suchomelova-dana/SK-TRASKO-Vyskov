@@ -237,7 +237,7 @@ const zavody: Competition[] = [
         date: '19.5.2024',
         type: CompetitionType.jednotlivci,
         club: 'SK TRASKO Vyškov',
-        results: '',
+        results: 'Traskáček 2024 - výsledky.pdf',
     },
     {
         name: 'Budapešť Maďarsko',
