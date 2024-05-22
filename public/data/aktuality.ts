@@ -2,17 +2,7 @@ import {Aktualita} from "../../src/interfaces/interfaces";
 
 const aktuality : Aktualita[] = [
         {
-        title: 'Pozvánka na závod Traskáček',
-        PDFtitle: 'rozpis závodu',
-        PDF: 'Traskacek 2024.pdf'
-        },
-        {
-        title: 'Traskáček',
-        PDFtitle: 'časový program',
-        PDF: 'Traskacek 2024_casovy program.pdf'
-        },
-        {
-        title: '13. 5. Informace pro členy',
+        title: '21. 5. Informace pro členy',
         PDFtitle: '',
         PDF: ''
         },
