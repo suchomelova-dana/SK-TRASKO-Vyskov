@@ -245,12 +245,7 @@ const zavody: Competition[] = [
         date: '25.5.2024',
         type: CompetitionType.jednotlivci,
         club: 'TJ SK Prague',
-    },
-    {
-        name: 'MČR NML A + NST A - Praha',
-        date: '26.5.2024',
-        type: CompetitionType.jednotlivci,
-        club: 'TJ SK Prague',
+        results: 'MČR NML a NST A - výsledky.pdf',
     },
     {
         name: 'MČR JUN A + SEN A - Jihlava',
