@@ -171,6 +171,11 @@ const informace : Information[] = [
         pdf: 'Informace 21.5.2024.pdf',
         description: '',
     },
+    {
+        date: '31.5.2024',
+        pdf: 'Soustředění léto 2024.pdf',
+        description: 'Informace k letnímu soustředění - Sezimovo Ústí, Ústí nad Orlicí, Vyškov',
+    },
 ]
 
 export default informace.reverse()
