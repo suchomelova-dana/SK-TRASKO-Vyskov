@@ -37,15 +37,22 @@
   <section id="aktualityRef" class="hide-animate scroll-mt-32" ref="aktualityRef">
     <SectionBoxHomepage id="aktuality" section-name="Aktuality" text-color="text-orange"  >
       <slot>
-        <ul class="bg-grayLight w-full py-8 pl-12 pr-8 tablet:p-20 tablet:px-32 list-disc text-green text-lg">
-          <li class="p-2 text-left" v-for="item in aktuality" :key="item.title">
-              <span class="text-gray-500 ">{{item.title}}</span>
-              <span v-if="item.PDF" class="text-gray-500 "> - </span>
-              <span>
-                <a :href="'PDFs/aktuality/' + item.PDF" target="_blank" class="text-green hover:text-greenDark">  {{item.PDFtitle}}</a>
-              </span>
-          </li>
-        </ul>
+        <div class="bg-grayLight w-full py-8 pl-12 pr-8 tablet:p-20 tablet:px-32 flex flex-col items-start desktop:items-center desktop:flex-row desktop:justify-between">
+          <ul class="list-disc text-green text-lg " :class="{'desktop:w-[50%]': showAktualityImage}">
+            <li class="p-2 text-left" v-for="item in aktuality" :key="item.title">
+                <span class="text-gray-500 ">{{item.title}}</span>
+                <span v-if="item.PDF" class="text-gray-500 "> - </span>
+                <span>
+                  <a :href="'PDFs/aktuality/' + item.PDF" target="_blank" class="text-green hover:text-greenDark">  {{item.PDFtitle}}</a>
+                </span>
+            </li>
+          </ul>
+
+          <div v-if="showAktualityImage" class="max-w-[400px] w-[100%] tablet:max-w-[600px] desktop:max-w-[50%] desktop:w-[50%] my-10 desktop:my-0 flex justify-end">
+            <img :src="'obrazky/aktuality/' + aktualityImage" alt="" class="w-full desktop:w-[80%]"/>
+          </div>
+
+        </div>
       </slot>
     </SectionBoxHomepage>
   </section>
@@ -87,9 +94,11 @@
   import MyCarousel from "@/components/HomePage/MyCarousel.vue";
   import SectionBoxHomepage from "@/components/HomePage/SectionBoxHomepage.vue";
   import {ref} from "vue";
-  import aktuality from "../../public/data/aktuality";
+  import aktuality, {aktualityImage} from "../../public/data/aktuality";
 
   const aktualityRef = ref<HTMLElement | null>(null);
+
+  const showAktualityImage = Boolean(aktualityImage);
 
   function scrollToAktuality(){
     // document.getElementById('aktuality')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
