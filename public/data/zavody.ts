@@ -236,7 +236,7 @@ const zavody: Competition[] = [
     },
     {
         name: 'Budapešť Maďarsko',
-        date: '23.-26.11.2024',
+        date: '23.-26.5.2024',
         type: CompetitionType.jednotlivci,
         club: '',
     },
