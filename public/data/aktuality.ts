@@ -2,7 +2,7 @@ import {Aktualita} from "../../src/interfaces/interfaces";
 
 const aktuality : Aktualita[] = [
         {
-                title: '21. 5. Informace pro členy',
+                title: '',
                 PDFtitle: '',
                 PDF: ''
         },
@@ -10,6 +10,6 @@ const aktuality : Aktualita[] = [
 
 ]
 
-export const aktualityImage  = "";         // jmeno souboru i s příponou, který vložíš do /obrazky/akuality
+export const aktualityImage  = "Pozvanka akademie 2024.jpg";         // jmeno souboru i s příponou, který vložíš do /obrazky/akuality
 
 export default aktuality
