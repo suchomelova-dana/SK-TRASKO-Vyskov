@@ -260,11 +260,11 @@ const zavody: Competition[] = [
         club: 'SKP MG Brno',
     },
     {
-        name: 'results: 'MČR ESG dlouhý program a ESG Cup VI. - Olomouc',
+        name: 'MČR ESG dlouhý program a ESG Cup VI - Olomouc',
         date: '9.6.2024',
         type: CompetitionType.esg,
         club: 'GK Velký Týnec',
-        results: 'MČR ESG DL a ESG Cup VI - výsledky.pdf',
+        results: 'ESG Cup VI - výsledky.pdf',
     },
 ]
 
