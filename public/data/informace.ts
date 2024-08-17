@@ -176,6 +176,11 @@ const informace : Information[] = [
         pdf: 'Soustředění léto 2024.pdf',
         description: 'Informace k letnímu soustředění - Sezimovo Ústí, Ústí nad Orlicí, Vyškov',
     },
+    {
+        date: '17.8.2024',
+        pdf: 'bezinfekčnost Ústí + Vyškov.pdf',
+        description: 'bezinfekčnost Ústí nad Orlicí, Vyškov',
+    },
 ]
 
 export default informace.reverse()
