@@ -6,8 +6,8 @@ const uzitecneDokumenty: Document[] = [
         document: 'nacini.pdf'
     },
     {
-        title: 'Rozvrh jaro 2024',
-        document: 'Rozvrh jaro 2024.pdf'
+        title: 'Rozvrh podzim 2024',
+        document: 'rozvrh podzim 2024.pdf'
     },
     {
         title: 'Provozní řád domečku',
