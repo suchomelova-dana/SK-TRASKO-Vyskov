@@ -186,6 +186,11 @@ const informace : Information[] = [
         pdf: 'informace 23.8.2024.pdf',
         description: '',
     },
+    {
+        date: '28.8.2024',
+        pdf: 'informace 28.8.2024.pdf',
+        description: '',
+    },
 ]
 
 export default informace.reverse()
