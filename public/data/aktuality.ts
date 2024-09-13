@@ -2,14 +2,14 @@ import {Aktualita} from "../../src/interfaces/interfaces";
 
 const aktuality : Aktualita[] = [
         {
-                title: '',
-                PDFtitle: '',
+                title: 'TRASKO Cup 2024',
+                PDFtitle: 'TRASKO CUP 2024 - rozpis.pdf',
                 PDF: ''
         },
      
 
 ]
 
-export const aktualityImage  = "talentovky_2024.jpeg";         // jmeno souboru i s příponou, který vložíš do /obrazky/akuality
+export const aktualityImage  = "";         // jmeno souboru i s příponou, který vložíš do /obrazky/akuality
 
 export default aktuality
