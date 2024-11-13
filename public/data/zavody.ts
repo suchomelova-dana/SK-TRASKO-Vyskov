@@ -266,6 +266,48 @@ const zavody: Competition[] = [
         club: 'GK Velký Týnec',
         results: 'ESG Cup VI - výsledky.pdf',
     },
+     {
+        name: 'Veselský pohár',
+        date: '12.10.2024',
+        type: CompetitionType.spolecky,
+        club: 'SK MG Veselí nad Moravou',
+    },
+    {
+        name: 'O Hradeckou stuhu',
+        date: '13.10.2024',
+        type: CompetitionType.spolecky,
+        club: 'SK MG Ajur Hrades Králové',
+    },
+    {
+        name: 'SOUTH MORAVIA CUP - Měnín',
+        date: '19.10.2024',
+        type: CompetitionType.spolecky,
+        club: 'SKP MG Brno',
+    },
+    {
+        name: 'TRASKO CUP',
+        date: '26.10.2024',
+        type: CompetitionType.spolecky,
+        club: 'SK TRASKO Vyškov',
+    },
+    {
+        name: 'Oblastní přebor ve společných skladbách - Vyškov',
+        date: '2.11.2024',
+        type: CompetitionType.spolecky,
+        club: 'SK TRASKO Vyškov',
+    },
+    {
+        name: 'Creative Cups CUP - Přerov',
+        date: '10.11.2024',
+        type: CompetitionType.spolecky,
+        club: 'TJ Spartak Přerov',
+    },
+    {
+        name: 'Sametová stuha - Modřice',
+        date: '16.11.2024',
+        type: CompetitionType.spolecky,
+        club: 'SKP MG Brno',
+    },
 ]
 
 export default zavody
