@@ -271,24 +271,28 @@ const zavody: Competition[] = [
         date: '12.10.2024',
         type: CompetitionType.spolecky,
         club: 'SK MG Veselí nad Moravou',
+        results: 'Veselský pohár - výsledky.pdf',
     },
     {
         name: 'O Hradeckou stuhu',
         date: '13.10.2024',
         type: CompetitionType.spolecky,
         club: 'SK MG Ajur Hrades Králové',
+        results: 'O Hradeckou stuhu - výsledky.pdf',
     },
     {
         name: 'SOUTH MORAVIA CUP - Měnín',
         date: '19.10.2024',
         type: CompetitionType.spolecky,
         club: 'SKP MG Brno',
+        results: 'SOUTH MORAVIA CUP - výsledky.pdf',
     },
     {
         name: 'TRASKO CUP',
         date: '26.10.2024',
         type: CompetitionType.spolecky,
         club: 'SK TRASKO Vyškov',
+        results: 'TRASKO Cup - výsledky.pdf',
     },
     {
         name: 'Oblastní přebor ve společných skladbách - Vyškov',
@@ -301,12 +305,14 @@ const zavody: Competition[] = [
         date: '10.11.2024',
         type: CompetitionType.spolecky,
         club: 'TJ Spartak Přerov',
+        results: 'CREATIVE CAPS CUP - výsledky.pdf',
     },
     {
         name: 'Sametová stuha - Modřice',
         date: '16.11.2024',
         type: CompetitionType.spolecky,
         club: 'SKP MG Brno',
+        results: 'Sametová stuha - výsledky.pdf',
     },
 ]
 
