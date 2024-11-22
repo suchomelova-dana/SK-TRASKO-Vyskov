@@ -295,10 +295,11 @@ const zavody: Competition[] = [
         results: 'TRASKO Cup - výsledky.pdf',
     },
     {
-        name: 'Oblastní přebor ve společných skladbách - Vyškov',
+        name: 'Přebor Jihomoravské soutěžní oblsati ve společných skladbách linie A, dvojic a trojic - Vyškov',
         date: '2.11.2024',
         type: CompetitionType.spolecky,
         club: 'SK TRASKO Vyškov',
+        results: 'OP SS linie A - výsledky.pdf',
     },
     {
         name: 'Creative Cups CUP - Přerov',
