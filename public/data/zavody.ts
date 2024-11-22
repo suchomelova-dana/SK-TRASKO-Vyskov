@@ -315,6 +315,23 @@ const zavody: Competition[] = [
         club: 'SKP MG Brno',
         results: 'Sametová stuha - výsledky.pdf',
     },
+    {
+        name: 'Mistrovství České republiky ve společných skladbách linie A',
+        date: '30.11.2024',
+        type: CompetitionType.spolecky,
+        club: 'TJ Slavoj Plzeň',
+    },
+    {
+        name: 'Mistrovství České republiky dvojic a trojic',
+        date: '1.12.2024',
+        type: CompetitionType.spolecky,
+        club: 'TJ Slavoj Plzeň',
+    },
+    {
+        name: 'Vánoční besídka oddílu SK TRASKO Vyškov - Sokolský dům',
+        date: '11.12.2024',
+        type: CompetitionType.spolecky,
+    },
 ]
 
 export default zavody
