@@ -1,9 +1,9 @@
-import {Aktualita} from "../../src/interfaces/interfaces";
+dkuimport {Aktualita} from "../../src/interfaces/interfaces";
 
 const aktuality : Aktualita[] = [
         {
-                title: 'Pozvánka na závod ve společných skladbách:  ',
-                PDFtitle: 'TRASKO CUP 2024 - rozpis.pdf',
+                title: 'Pozvánka na vánoční besídku:  ',
+                PDFtitle: 'Pozvánka besídka 2024.jpg',
                 PDF: ''
         },
      
