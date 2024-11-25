@@ -2,9 +2,9 @@ dkuimport {Aktualita} from "../../src/interfaces/interfaces";
 
 const aktuality : Aktualita[] = [
         {
-                title: 'Pozvánka na vánoční besídku:  ',
+                title: 'Historický úspěch našich gymnastek - družstvo juniorek ESG skončila na Mistrovství světa v Estonsku na 11 místě!  ',
                 PDFtitle: '',
-                PDF: ''
+                PDF: 'MS ESG 2024.pdf'
         },
      
 
