@@ -1,4 +1,4 @@
-dkuimport {Aktualita} from "../../src/interfaces/interfaces";
+import {Aktualita} from "../../src/interfaces/interfaces";
 
 const aktuality : Aktualita[] = [
         {
