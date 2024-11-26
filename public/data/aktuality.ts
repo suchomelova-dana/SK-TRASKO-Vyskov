@@ -3,7 +3,7 @@ import {Aktualita} from "../../src/interfaces/interfaces";
 const aktuality : Aktualita[] = [
         {
                 title: 'Historický úspěch našich gymnastek - družstvo juniorek ESG skončila na Mistrovství světa v Estonsku na 11. místě!  ',
-                PDFtitle: '',
+                PDFtitle: 'výsledky MS',
                 PDF: 'MS ESG 2024.pdf'
         },
      
