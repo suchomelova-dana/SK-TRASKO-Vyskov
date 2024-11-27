@@ -316,11 +316,19 @@ const zavody: Competition[] = [
         results: 'Sametová stuha - výsledky.pdf',
     },
     {
+        name: 'Mistrovství světa v ESG: IFAGG World Championships 2024',
+        date: '22.-24.11.2024',
+        type: CompetitionType.esg,
+        club: 'Tartu Estonsko',
+        results: 'MS ESG 2024.pdf',
+    },
+    {
         name: 'Mistrovství České republiky ve společných skladbách linie A',
         date: '30.11.2024',
         type: CompetitionType.spolecky,
         club: 'TJ Slavoj Plzeň',
     },
+    
     {
         name: 'Mistrovství České republiky dvojic a trojic',
         date: '1.12.2024',
