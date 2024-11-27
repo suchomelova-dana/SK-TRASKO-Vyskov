@@ -33,6 +33,10 @@ const vyrocniZpravySpolku : VyrocniZprava[] = [
          year: 2022,
          pdf: 'Výroční zpráva za rok 2022.pdf'
     },
+    {
+         year: 2023,
+         pdf: 'Výroční zpráva SK TRASKO Vyškov za rok 2023.pdf'
+    },
     
 ]
 
