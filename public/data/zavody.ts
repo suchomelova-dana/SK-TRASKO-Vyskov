@@ -327,6 +327,7 @@ const zavody: Competition[] = [
         date: '30.11.2024',
         type: CompetitionType.spolecky,
         club: 'TJ Slavoj Plzeň',
+        results: 'MCR SS - 2024 - vysledky.pdf',
     },
     
     {
@@ -334,6 +335,7 @@ const zavody: Competition[] = [
         date: '1.12.2024',
         type: CompetitionType.spolecky,
         club: 'TJ Slavoj Plzeň',
+        results: 'MCR DT 2024 - vysledky.pdf',
     },
     {
         name: 'Vánoční besídka oddílu SK TRASKO Vyškov - Sokolský dům',
