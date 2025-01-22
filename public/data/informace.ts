@@ -224,12 +224,12 @@ const informace : Information[] = [
     {
         date: '21.12.2024',
         pdf: 'sestavy 2025.pdf',
-        description: '',
+        description: 'Sestavy 2025',
     },
     {
         date: '21.12.2024',
         pdf: 'Skládání sestav 2025.pdf',
-        description: '',
+        description: 'Skládání sestav 2025',
     },
     {
         date: '6.1.2025',
