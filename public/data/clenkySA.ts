@@ -2,14 +2,14 @@ import {Member} from "../../src/interfaces/interfaces";
 
 const SAmembers : Member[] = [
     { name: 'Frydrychová Eliška' },
-    { name: 'Holubová Kateřina' },
-    { name: 'Matoušková Patricie' },
+    { name: 'Hrdličková Aneta' },
     { name: 'Mikešová Alexandra' },
+    { name: 'Němcová Melánie' },
     { name: 'Novosadová Evelin' },
+    { name: 'Pecháčková Sára' },
     { name: 'Sochorová Zuzana' },
-    { name: 'Šlapakova Apolena' },
     { name: 'Šmakalová Iveta' },
-    { name: 'Vágnerová Linda' },
+    { name: 'Tesařová Gabriela' },
     { name: 'Vejrostová Laura' },
 ]
 
