@@ -420,6 +420,36 @@ const zavody: Competition[] = [
         type: CompetitionType.esg,
         club: 'TJ Gumárny Zubří',
     },
+    {
+        name: 'MČR NML A - Praha',
+        date: '31.5.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'TJ ZŠ Hostivař Praha',
+    },
+    {
+        name: 'MČR NST A - Praha',
+        date: '1.6.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'TJ ZŠ Hostivař Praha',
+    },
+    {
+        name: 'MČR NML B, NST B, JUN B, JUN A - Brno',
+        date: '24.5. - 25.5.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK MG MANTILA Brno',
+    },
+    {
+        name: 'O pohár města Vyškova - Vyškov',
+        date: '5.4.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',
+    },
+    {
+        name: 'Traskáček - Vyškov',
+        date: '17.5.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',
+    },
 ]
 
 export default zavody
