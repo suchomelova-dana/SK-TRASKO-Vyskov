@@ -361,10 +361,28 @@ const zavody: Competition[] = [
         club: 'SK MG MANTILA Brno',
     },
     {
+        name: 'Disney Cup - Brno',
+        date: '15.3.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SKP MG Brno',
+    },
+    {
         name: 'MZ II - Vyškov',
         date: '16.3.2025',
         type: CompetitionType.jednotlivci,
         club: 'SK TRASKO Vyškov',
+    },
+    {
+        name: 'Žďárská sněženka - Žďár nad Sázavou',
+        date: '22.3.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'MG TJ Žďár nad Sázavou',
+    },
+    {
+        name: 'Veselská panenka - Veselí nad Moravou',
+        date: '23.3.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK MG Veselí nad Moravou',
     },
     {
         name: 'KZ III - Vyškov',
@@ -391,10 +409,46 @@ const zavody: Competition[] = [
         club: 'TJ Třebíč MG Baver',
     },
     {
+        name: 'AJUR Cup - Hradec Králové',
+        date: '13.4.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK MG AJUR Hradec Králové',
+    },
+    {
         name: 'ESG CUP IV + OP všech kategorií + MČR krátký program - Zlín',
         date: '1.5.2025',
         type: CompetitionType.esg,
         club: 'KMG Zlín',
+    },
+    {
+        name: 'Morenda Cup - Brno',
+        date: '3.5.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK MG MS Brno',
+    },
+    {
+        name: 'Milevský pohárek - Milevsko',
+        date: '3.5.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'Proactive Milevsko',
+    },
+    {
+        name: 'Mantilácký tulipánek - Brno',
+        date: '4.5.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK MG MANTILA Brno',
+    },
+    {
+        name: 'Hostivař Cup - Praha',
+        date: '10.5.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'TJ ZŠ Hostivař',
+    },
+    {
+        name: 'OIG GYM CUP 2025 - České Budějovice',
+        date: '10.5.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK MG Máj České Budějovice',
     },
     {
         name: 'OP NML B, NST B, JUN B, SEN B - Brno',
@@ -413,6 +467,12 @@ const zavody: Competition[] = [
         date: '17.5.2025',
         type: CompetitionType.jednotlivci,
         club: 'SK TRASKO Vyškov',
+    },
+    {
+        name: 'O pohár města Ostravy - Ostrava',
+        date: '17.5.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SSK Vítkovice',
     },
     {
         name: 'ESG CUP V - Vyškov',
