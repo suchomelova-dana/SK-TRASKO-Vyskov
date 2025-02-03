@@ -1,8 +1,8 @@
 import {Member} from "../../src/interfaces/interfaces";
 
 const clenkyDruzstvaNadeji : Member[] = [
-    { name: 'Mikešová Alexandra' },
     { name: 'Frydrychová Eliška' },
+    { name: 'Mikešová Alexandra' },
     { name: 'Vejrostová Laura' },
 ]
 
