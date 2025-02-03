@@ -390,10 +390,6 @@ const zavody: Competition[] = [
         type: CompetitionType.jednotlivci,
         club: 'SK MG Blučina',
     },
-
-
-
-    
     {
         name: 'ESG CUP II - Velké Meziříčí',
         date: '6.4.2025',
