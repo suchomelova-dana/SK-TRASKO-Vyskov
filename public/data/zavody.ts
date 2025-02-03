@@ -373,22 +373,10 @@ const zavody: Competition[] = [
         club: 'SK TRASKO Vyškov',
     },
     {
-        name: 'OP NML A, NST A, - Vyškov',
-        date: '11.5.2025',
+        name: 'O pohár města Vyškova - Vyškov',
+        date: '5.4.2025',
         type: CompetitionType.jednotlivci,
         club: 'SK TRASKO Vyškov',
-    },
-    {
-        name: 'OP NML B, NST B, JUN B, SEN B - Brno',
-        date: '10.5.2025',
-        type: CompetitionType.jednotlivci,
-        club: 'TJ Tesla Brno',
-    },
-    {
-        name: 'OP NNML - Blučina',
-        date: '7.6.2025',
-        type: CompetitionType.jednotlivci,
-        club: 'SK MG Blučina',
     },
     {
         name: 'ESG CUP II - Velké Meziříčí',
@@ -409,16 +397,34 @@ const zavody: Competition[] = [
         club: 'KMG Zlín',
     },
     {
+        name: 'OP NML B, NST B, JUN B, SEN B - Brno',
+        date: '10.5.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'TJ Tesla Brno',
+    },
+    {
+        name: 'OP NML A, NST A, - Vyškov',
+        date: '11.5.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',
+    },
+    {
+        name: 'Traskáček - Vyškov',
+        date: '17.5.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',
+    },
+    {
         name: 'ESG CUP V - Vyškov',
         date: '18.5.2025',
         type: CompetitionType.esg,
         club: 'SK TRASKO Vyškov',
     },
     {
-        name: 'ESG CUP VI + MČR dlouhý program - Zubří',
-        date: '8.6.2025',
-        type: CompetitionType.esg,
-        club: 'TJ Gumárny Zubří',
+        name: 'MČR NML B, NST B, JUN B, JUN A - Brno',
+        date: '24.5. - 25.5.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK MG MANTILA Brno',
     },
     {
         name: 'MČR NML A - Praha',
@@ -433,22 +439,16 @@ const zavody: Competition[] = [
         club: 'TJ ZŠ Hostivař Praha',
     },
     {
-        name: 'MČR NML B, NST B, JUN B, JUN A - Brno',
-        date: '24.5. - 25.5.2025',
+        name: 'OP NNML - Blučina',
+        date: '7.6.2025',
         type: CompetitionType.jednotlivci,
-        club: 'SK MG MANTILA Brno',
+        club: 'SK MG Blučina',
     },
     {
-        name: 'O pohár města Vyškova - Vyškov',
-        date: '5.4.2025',
-        type: CompetitionType.jednotlivci,
-        club: 'SK TRASKO Vyškov',
-    },
-    {
-        name: 'Traskáček - Vyškov',
-        date: '17.5.2025',
-        type: CompetitionType.jednotlivci,
-        club: 'SK TRASKO Vyškov',
+        name: 'ESG CUP VI + MČR dlouhý program - Zubří',
+        date: '8.6.2025',
+        type: CompetitionType.esg,
+        club: 'TJ Gumárny Zubří',
     },
 ]
 
