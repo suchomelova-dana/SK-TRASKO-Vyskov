@@ -246,6 +246,16 @@ const informace : Information[] = [
         pdf: 'Informace 21.1.2025.pdf',
         description: '',
     },
+    {
+        date: '2.2.2025',
+        pdf: 'Informace 2.2.2025.pdf',
+        description: '',
+    },
+    {
+        date: '2.2.2025',
+        pdf: '2025-skoleni-ro-oh-cyklus-2025-28-propozice-jsomg.pdf',
+        description: 'Propozice ke školení RO na nový olympijský cyklus',
+    },
 ]
 
 export default informace.reverse()
