@@ -342,6 +342,88 @@ const zavody: Competition[] = [
         date: '11.12.2024',
         type: CompetitionType.spolecky,
     },
+    {
+        name: 'KZ I - Vyškov',
+        date: '15.2.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',
+    },
+    {
+        name: 'KZ II - Vyškov',
+        date: '23.2.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',
+    },
+    {
+        name: 'MZ I - Brno',
+        date: '9.3.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK MG MANTILA Brno',
+    },
+    {
+        name: 'MZ II - Vyškov',
+        date: '16.3.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',
+    },
+    {
+        name: 'KZ III - Vyškov',
+        date: '30.3.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',
+    },
+    {
+        name: 'OP NML A, NST A, - Vyškov',
+        date: '11.5.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',
+    },
+    {
+        name: 'OP NML B, NST B, JUN B, SEN B - Brno',
+        date: '10.5.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'TJ Tesla Brno',
+    },
+    {
+        name: 'OP NNML - Blučina',
+        date: '7.6.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK MG Blučina',
+    },
+
+
+
+    
+    {
+        name: 'ESG CUP II - Velké Meziříčí',
+        date: '6.4.2025',
+        type: CompetitionType.esg,
+        club: 'TJ Sokol Velké Meziříčí',
+    },
+    {
+        name: 'ESG CUP III - Třebíč',
+        date: '12.4.2025',
+        type: CompetitionType.esg,
+        club: 'TJ Třebíč MG Baver',
+    },
+    {
+        name: 'ESG CUP IV + OP všech kategorií + MČR krátký program - Zlín',
+        date: '1.5.2025',
+        type: CompetitionType.esg,
+        club: 'KMG Zlín',
+    },
+    {
+        name: 'ESG CUP V - Vyškov',
+        date: '18.5.2025',
+        type: CompetitionType.esg,
+        club: 'SK TRASKO Vyškov',
+    },
+    {
+        name: 'ESG CUP VI + MČR dlouhý program - Zubří',
+        date: '8.6.2025',
+        type: CompetitionType.esg,
+        club: 'TJ Gumárny Zubří',
+    },
 ]
 
 export default zavody
