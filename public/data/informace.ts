@@ -256,6 +256,11 @@ const informace : Information[] = [
         pdf: '2025-skoleni-ro-oh-cyklus-2025-28-propozice-jsomg.pdf',
         description: 'Propozice ke školení RO na nový olympijský cyklus',
     },
+    {
+        date: '12.2.2025',
+        pdf: 'Informace 12.2.2025.pdf',
+        description: '',
+    },
 ]
 
 export default informace.reverse()
