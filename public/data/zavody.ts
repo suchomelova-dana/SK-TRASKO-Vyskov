@@ -295,7 +295,7 @@ const zavody: Competition[] = [
         results: 'TRASKO Cup - výsledky.pdf',
     },
     {
-        name: 'Přebor Jihomoravské soutěžní oblsati ve společných skladbách linie A, dvojic a trojic - Vyškov',
+        name: 'Přebor Jihomoravské soutěžní oblasti ve společných skladbách linie A, dvojic a trojic - Vyškov',
         date: '2.11.2024',
         type: CompetitionType.spolecky,
         club: 'SK TRASKO Vyškov',
@@ -509,6 +509,43 @@ const zavody: Competition[] = [
         date: '8.6.2025',
         type: CompetitionType.esg,
         club: 'TJ Gumárny Zubří',
+    },
+     {
+        name: 'KZ I - Vyškov',
+        date: '15.2.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',
+        results: 'KZ I 2025 - vysledky.pdf',
+    },
+    {
+        name: 'KZ II - Vyškov',
+        date: '23.2.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',        
+    },
+    {
+        name: 'Mezioddílový závod Mantila Brno',
+        date: '9.3.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK MG Mantila Brno',        
+    },
+    {
+        name: 'Mezioddílový závod Vyškov',
+        date: '16.3.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',
+    },
+    {
+        name: 'KZ III - Vyškov',
+        date: '30.3.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',        
+    },
+    {
+        name: 'O pohár města Vyškova',
+        date: '5.4.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',        
     },
 ]
 
