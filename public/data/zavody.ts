@@ -347,6 +347,7 @@ const zavody: Competition[] = [
         date: '15.2.2025',
         type: CompetitionType.jednotlivci,
         club: 'SK TRASKO Vyškov',
+        results: 'KZ I 2025 - vysledky.pdf',
     },
     {
         name: 'KZ II - Vyškov',
@@ -510,43 +511,7 @@ const zavody: Competition[] = [
         type: CompetitionType.esg,
         club: 'TJ Gumárny Zubří',
     },
-     {
-        name: 'KZ I - Vyškov',
-        date: '15.2.2025',
-        type: CompetitionType.jednotlivci,
-        club: 'SK TRASKO Vyškov',
-        results: 'KZ I 2025 - vysledky.pdf',
-    },
-    {
-        name: 'KZ II - Vyškov',
-        date: '23.2.2025',
-        type: CompetitionType.jednotlivci,
-        club: 'SK TRASKO Vyškov',        
-    },
-    {
-        name: 'Mezioddílový závod Mantila Brno',
-        date: '9.3.2025',
-        type: CompetitionType.jednotlivci,
-        club: 'SK MG Mantila Brno',        
-    },
-    {
-        name: 'Mezioddílový závod Vyškov',
-        date: '16.3.2025',
-        type: CompetitionType.jednotlivci,
-        club: 'SK TRASKO Vyškov',
-    },
-    {
-        name: 'KZ III - Vyškov',
-        date: '30.3.2025',
-        type: CompetitionType.jednotlivci,
-        club: 'SK TRASKO Vyškov',        
-    },
-    {
-        name: 'O pohár města Vyškova',
-        date: '5.4.2025',
-        type: CompetitionType.jednotlivci,
-        club: 'SK TRASKO Vyškov',        
-    },
+    
 ]
 
 export default zavody
