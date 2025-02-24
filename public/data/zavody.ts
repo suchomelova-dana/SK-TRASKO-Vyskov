@@ -354,6 +354,7 @@ const zavody: Competition[] = [
         date: '23.2.2025',
         type: CompetitionType.jednotlivci,
         club: 'SK TRASKO Vyškov',
+        results: 'KZ II 2025 - Výsledky.pdf',
     },
     {
         name: 'MZ I - Brno',
@@ -386,7 +387,7 @@ const zavody: Competition[] = [
         club: 'SK MG Veselí nad Moravou',
     },
     {
-        name: 'KZ III - Vyškov',
+        name: 'MZ III - Vyškov',
         date: '30.3.2025',
         type: CompetitionType.jednotlivci,
         club: 'SK TRASKO Vyškov',
