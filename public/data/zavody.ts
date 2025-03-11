@@ -343,6 +343,13 @@ const zavody: Competition[] = [
         type: CompetitionType.spolecky,
     },
     {
+        name: 'TRASKO liga',
+        date: '1.2.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',
+        results: 'TRASKO liga 2025.pdf',
+    },
+    {
         name: 'KZ I - Vyškov',
         date: '15.2.2025',
         type: CompetitionType.jednotlivci,
@@ -361,6 +368,7 @@ const zavody: Competition[] = [
         date: '9.3.2025',
         type: CompetitionType.jednotlivci,
         club: 'SK MG MANTILA Brno',
+        results: 'MZ Mantila 2025 - vysledky.pdf',
     },
     {
         name: 'Disney Cup - Brno',
