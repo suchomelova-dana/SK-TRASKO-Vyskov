@@ -371,16 +371,11 @@ const zavody: Competition[] = [
         results: 'MZ Mantila 2025 - vysledky.pdf',
     },
     {
-        name: 'Disney Cup - Brno',
-        date: '15.3.2025',
-        type: CompetitionType.jednotlivci,
-        club: 'SKP MG Brno',
-    },
-    {
         name: 'MZ II - Vyškov',
         date: '16.3.2025',
         type: CompetitionType.jednotlivci,
         club: 'SK TRASKO Vyškov',
+        results: 'MZ Vyškov 2025 - výsledky.pdf',
     },
     {
         name: 'Žďárská sněženka - Žďár nad Sázavou',
