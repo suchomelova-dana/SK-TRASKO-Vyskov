@@ -394,6 +394,7 @@ const zavody: Competition[] = [
         date: '30.3.2025',
         type: CompetitionType.jednotlivci,
         club: 'SK TRASKO Vyškov',
+        results: 'MZ s MS Brno - výsledky.pdf',
     },
     {
         name: 'O pohár města Vyškova - Vyškov',
