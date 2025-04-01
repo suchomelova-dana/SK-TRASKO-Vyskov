@@ -12,7 +12,7 @@ const aktuality : Aktualita[] = [
                 PDF: 'O pohar mesta Vyskova 2025 - časový program.pdf'
         },
         {
-                title: 'Traskáček - ',
+                title: 'Traskáček ',
                 PDFtitle: 'pozvánka a rozpis závodu',
                 PDF: 'Traskacek 2025.pdf'
         },
