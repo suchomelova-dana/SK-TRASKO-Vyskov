@@ -401,6 +401,7 @@ const zavody: Competition[] = [
         date: '5.4.2025',
         type: CompetitionType.jednotlivci,
         club: 'SK TRASKO Vyškov',
+        results: 'Vyškovský pohár 2025 - výsledkyy.pdf',
     },
     {
         name: 'ESG CUP II - Velké Meziříčí',
