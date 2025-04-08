@@ -382,12 +382,14 @@ const zavody: Competition[] = [
         date: '22.3.2025',
         type: CompetitionType.jednotlivci,
         club: 'MG TJ Žďár nad Sázavou',
+        results: 'Žďárská sněženka 2025 - výsledky.pdf',
     },
     {
         name: 'Veselská panenka - Veselí nad Moravou',
         date: '23.3.2025',
         type: CompetitionType.jednotlivci,
         club: 'SK MG Veselí nad Moravou',
+        results: 'Veselská panenka 2025 - výsledky.pdf',
     },
     {
         name: 'MZ III - Vyškov',
@@ -408,6 +410,7 @@ const zavody: Competition[] = [
         date: '6.4.2025',
         type: CompetitionType.esg,
         club: 'TJ Sokol Velké Meziříčí',
+        results: 'ESG II 2025 - výsledky.pdf',
     },
     {
         name: 'ESG CUP III - Třebíč',
