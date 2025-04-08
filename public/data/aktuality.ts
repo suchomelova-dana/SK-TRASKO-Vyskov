@@ -9,12 +9,12 @@ const aktuality : Aktualita[] = [
         {
                 title: 'Traskáček ',
                 PDFtitle: 'pozvánka a rozpis závodu',
-                PDF: 'Traskacek 2025.jpg'
+                PDF: 'Traskacek 2025.pdf'
         },
      
 
 ]
 
-export const aktualityImage  = "MZ III 2025.pdf";         // jmeno souboru i s příponou, který vložíš do /obrazky/akuality
+export const aktualityImage  = "MZ III 2025.jpg";         // jmeno souboru i s příponou, který vložíš do /obrazky/akuality
 
 export default aktuality
