@@ -423,6 +423,7 @@ const zavody: Competition[] = [
         date: '13.4.2025',
         type: CompetitionType.jednotlivci,
         club: 'SK MG AJUR Hradec Králové',
+        results: 'AJUR CUP 2025 - výsledky.pdf',
     },
     {
         name: 'ESG CUP IV + OP všech kategorií + MČR krátký program - Zlín',
