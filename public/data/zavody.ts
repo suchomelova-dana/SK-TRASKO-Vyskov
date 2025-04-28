@@ -426,6 +426,13 @@ const zavody: Competition[] = [
         results: 'AJUR CUP 2025 - výsledky.pdf',
     },
     {
+        name: 'Světový pohár v ESG Toronto, Kanada',
+        date: '25.4.2025',
+        type: CompetitionType.esg,
+        club: 'IFAGG',
+        results: World Cup II_result_Seniors.pdf',
+    },
+    {
         name: 'ESG CUP IV + OP všech kategorií + MČR krátký program - Zlín',
         date: '1.5.2025',
         type: CompetitionType.esg,
