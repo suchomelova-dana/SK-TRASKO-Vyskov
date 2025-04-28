@@ -430,7 +430,7 @@ const zavody: Competition[] = [
         date: '25.4.2025',
         type: CompetitionType.esg,
         club: 'IFAGG',
-        results: World Cup II_result_Seniors.pdf',
+        results: 'World Cup II_result_Seniors.pdf',
     },
     {
         name: 'ESG CUP IV + OP všech kategorií + MČR krátký program - Zlín',
