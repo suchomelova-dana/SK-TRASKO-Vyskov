@@ -2,9 +2,9 @@ import {Aktualita} from "../../src/interfaces/interfaces";
 
 const aktuality : Aktualita[] = [
         {
-                title: 'O pohár města Vyškova ',
-                PDFtitle: 'výsledky',
-                PDF: 'Vyškovský pohár 2025 - výsledky.pdf'
+                title: 'Družstvo seniorek estetické skupinové gymnastiky STORM skončilo 12. na Světovém poháru v Torontu! ',
+                PDFtitle: '',
+                PDF: ''
         },
         {
                 title: 'Traskáček ',
@@ -15,6 +15,6 @@ const aktuality : Aktualita[] = [
 
 ]
 
-export const aktualityImage  = "MZ III 2025.jpg";         // jmeno souboru i s příponou, který vložíš do /obrazky/akuality
+export const aktualityImage  = "Seniorky - Toronto.jpg";         // jmeno souboru i s příponou, který vložíš do /obrazky/akuality
 
 export default aktuality
