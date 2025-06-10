@@ -503,6 +503,7 @@ const zavody: Competition[] = [
         date: '24.5. - 25.5.2025',
         type: CompetitionType.jednotlivci,
         club: 'SK MG MANTILA Brno',
+        results: MČR NST B a JUN B 2025 - výsledky.pdf',
     },
     {
         name: 'MČR NML A - Praha',
