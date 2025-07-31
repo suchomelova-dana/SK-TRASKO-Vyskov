@@ -284,12 +284,12 @@ const informace : Information[] = [
     {
         date: '31.7.2025',
         pdf: 'Soustředění léto 2025.pdf',
-        description: '',
+        description: 'Informace k soustředění Ústí nad Orlicí a Vyškov',
     },
     {
         date: '31.7.2025',
         pdf: 'bezinfekčnost Ústí + Vyškov.pdf',
-        description: '',
+        description: 'bezinfekčnost Ústí a Vyškov',
     },
     
 ]
