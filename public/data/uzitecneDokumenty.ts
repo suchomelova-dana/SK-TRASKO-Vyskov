@@ -10,8 +10,8 @@ const uzitecneDokumenty: Document[] = [
         document: 'rozvrh jaro 2025.pdf'
     },
     {
-        title: 'Provozní řád domečku',
-        document: 'provozni_rad_domecku.pdf'
+        title: 'Provozní řád domečku 2025',
+        document: 'provozní řád domeček 2025 podepsaný.pdf'
     },
     {
         title: 'Prohlídka od pediatra',
