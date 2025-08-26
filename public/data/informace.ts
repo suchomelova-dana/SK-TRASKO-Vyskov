@@ -291,7 +291,11 @@ const informace : Information[] = [
         pdf: 'bezinfekčnost Ústí + Vyškov.pdf',
         description: 'bezinfekčnost Ústí a Vyškov',
     },
-    
+    {
+        date: '22.8.2025',
+        pdf: 'Informace 22.8.2025.pdf',
+        description: '',
+    },
 ]
 
 export default informace.reverse()
