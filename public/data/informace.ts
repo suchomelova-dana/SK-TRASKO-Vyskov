@@ -293,7 +293,7 @@ const informace : Information[] = [
     },
     {
         date: '22.8.2025',
-        pdf: 'Informace 22.8.2025.pdf',
+        pdf: 'informace 22.8.2025.pdf',
         description: '',
     },
 ]
