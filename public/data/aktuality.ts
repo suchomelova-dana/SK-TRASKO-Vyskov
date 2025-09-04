@@ -9,6 +9,6 @@ const aktuality : Aktualita[] = [
         
 ]
 
-export const aktualityImage  = "sk trasko vyskov_akademie 2025_pozvanka A5-001.jpg";         // jmeno souboru i s příponou, který vložíš do /obrazky/akuality
+export const aktualityImage  = "sktrasko_talentovky 2025_letak.png";         // jmeno souboru i s příponou, který vložíš do /obrazky/akuality
 
 export default aktuality
