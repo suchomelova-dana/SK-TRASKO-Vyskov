@@ -4,7 +4,7 @@ const aktuality : Aktualita[] = [
         {
                 title: 'Trasko Cup - pozvánka a rozpis závodu ',
                 PDFtitle: '',
-                PDF: 'TRASKO CUP 2025 - rozpis.pdf'
+                PDF: 'TRASKO CUP 2025 - rozpis.pdf',
         },
         
 ]
