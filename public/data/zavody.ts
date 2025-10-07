@@ -417,6 +417,7 @@ const zavody: Competition[] = [
         date: '12.4.2025',
         type: CompetitionType.esg,
         club: 'TJ Třebíč MG Baver',
+        results: 'ESG Cup III 2025 - výsledky.pdf',
     },
     {
         name: 'AJUR Cup - Hradec Králové',
