@@ -529,6 +529,7 @@ const zavody: Competition[] = [
         date: '8.6.2025',
         type: CompetitionType.esg,
         club: 'TJ Gumárny Zubří',
+        results: 'MČR ESG DP a ESG Cup VI 2025 - výsledky.pdf',
     },
     
 ]
