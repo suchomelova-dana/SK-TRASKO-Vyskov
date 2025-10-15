@@ -551,6 +551,18 @@ const zavody: Competition[] = [
         club: 'SKP MG Brno',
     },
     {
+        name: 'RYCON Cup',
+        date: '25.10.2025',
+        type: CompetitionType.spolecky,
+        club: 'SKMG Máj České Budějovice',
+    },
+    {
+        name: 'Pohár královny Elišky',
+        date: '28.10.2025',
+        type: CompetitionType.spolecky,
+        club: 'TJ Slavia Hradec Králové',
+    },
+    {
         name: 'TRASKO CUP',
         date: '1.11.2025',
         type: CompetitionType.spolecky,
