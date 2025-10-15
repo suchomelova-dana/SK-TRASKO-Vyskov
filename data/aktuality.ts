@@ -1,0 +1,14 @@
+import {Aktualita} from "../../src/interfaces/interfaces";
+
+const aktuality : Aktualita[] = [
+        {
+                title: 'Trasko Cup',
+                PDFtitle: 'pozvánka a rozpis závodu',
+                PDF: 'TRASKO CUP 2025 - rozpis.pdf',
+        },
+        
+]
+
+export const aktualityImage  = "";         // jmeno souboru i s příponou, který vložíš do /obrazky/akuality
+
+export default aktuality
