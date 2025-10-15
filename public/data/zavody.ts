@@ -531,6 +531,37 @@ const zavody: Competition[] = [
         club: 'TJ Gumárny Zubří',
         results: 'MČR ESG DP a ESG Cup VI 2025 - výsledky.pdf',
     },
+    {
+        name: 'Veselský pohár',
+        date: '11.10.2025',
+        type: CompetitionType.spolecky,
+        club: 'SK MG Veselí nad Moravou',
+    },
+    {
+        name: 'O Hradeckou stuhu',
+        date: '12.10.2025',
+        type: CompetitionType.spolecky,
+        club: 'SK MG Ajur Hrades Králové',
+        results: 'O Hradeckou stuhu 2025- výsledky.pdf',
+    },
+    {
+        name: 'SOUTH MORAVIA CUP - Měnín',
+        date: '18.10.2025',
+        type: CompetitionType.spolecky,
+        club: 'SKP MG Brno',
+    },
+    {
+        name: 'TRASKO CUP',
+        date: '1.11.2025',
+        type: CompetitionType.spolecky,
+        club: 'SK TRASKO Vyškov',
+    },
+    {
+        name: 'Přebor Jihomoravské soutěžní oblasti ve společných skladbách linie A, dvojic a trojic - TJ Tesla Brno',
+        date: '8.11.2025',
+        type: CompetitionType.spolecky,
+        club: 'JSOMG',
+    },
     
 ]
 
