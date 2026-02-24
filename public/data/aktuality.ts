@@ -2,9 +2,9 @@ import {Aktualita} from "../../src/interfaces/interfaces";
 
 const aktuality : Aktualita[] = [
         {
-                title: 'Trasko Cup',
-                PDFtitle: 'pozvánka a rozpis závodu',
-                PDF: 'TRASKO CUP 2025 - rozpis.pdf',
+                title: 'Kontrolní závod I.',
+                PDFtitle: 'výsledky závodu',
+                PDF: 'KZ I 2026 - vysledky.pdf',
         },
         
 ]
