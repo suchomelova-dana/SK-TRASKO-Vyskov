@@ -578,7 +578,22 @@ const zavody: Competition[] = [
         name: 'Sametová stuha',
         date: '17.11.2025',
         type: CompetitionType.spolecky,
-        club: '',
+        club: 'SKP MG Brno',
+        results: 'Sametova stuha 2026 - vysledky.pdf',
+    },
+    {
+        name: 'Mistrovství České republiky společných skladeb linie A',
+        date: '22.11.2025',
+        type: CompetitionType.spolecky,
+        club: 'Hradec Králové',
+        results: 'MCR SS linie A 2026 - vysledky.pdf',
+    },
+    {
+        name: 'Mistrovství České republiky dvojic a trojic',
+        date: '23.11.2025',
+        type: CompetitionType.spolecky,
+        club: 'Hradec Králové',
+        results: 'MCR DT 2026 - vysledky.pdf',
     },
     {
         name: 'KZ I - Vyškov',
