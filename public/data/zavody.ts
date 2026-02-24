@@ -555,24 +555,28 @@ const zavody: Competition[] = [
         date: '25.10.2025',
         type: CompetitionType.spolecky,
         club: 'SKMG Máj České Budějovice',
+        results: 'Rycon Cup 2025 - vysledky.pdf',
     },
     {
         name: 'Pohár královny Elišky',
         date: '28.10.2025',
         type: CompetitionType.spolecky,
         club: 'TJ Slavia Hradec Králové',
+        results: 'Pohár královny Elišky 2025 - vysledky.pdf',
     },
     {
         name: 'TRASKO CUP',
         date: '1.11.2025',
         type: CompetitionType.spolecky,
         club: 'SK TRASKO Vyškov',
+        results: 'TRASKO Cup 2025 - vysledky.pdf',
     },
     {
         name: 'Přebor Jihomoravské soutěžní oblasti ve společných skladbách linie A, dvojic a trojic - TJ Tesla Brno',
         date: '8.11.2025',
         type: CompetitionType.spolecky,
         club: 'JSOMG',
+        results: 'OP SS 2025 - vysledky.pdf',
     },
     {
         name: 'Sametová stuha',
