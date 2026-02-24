@@ -344,7 +344,7 @@ const informace : Information[] = [
     {
         date: '27.1.2026',
         pdf: 'AMERIKA 2025-26.pdf',
-        description: 'pořadí a provedení cviků z Ameriky',
+        description: 'AMERIKA 2025-26 - pořadí a provedení cviků z Ameriky',
     },
     {
         date: '3.2.2026',
