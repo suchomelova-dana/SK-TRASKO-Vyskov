@@ -536,6 +536,7 @@ const zavody: Competition[] = [
         date: '11.10.2025',
         type: CompetitionType.spolecky,
         club: 'SK MG Veselí nad Moravou',
+        results: 'Veselský pohár 2025 - vysledky.pdf',
     },
     {
         name: 'O Hradeckou stuhu',
