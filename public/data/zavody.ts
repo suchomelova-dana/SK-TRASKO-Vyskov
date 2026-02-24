@@ -574,7 +574,43 @@ const zavody: Competition[] = [
         type: CompetitionType.spolecky,
         club: 'JSOMG',
     },
-    
+    {
+        name: 'Sametová stuha',
+        date: '17.11.2025',
+        type: CompetitionType.spolecky,
+        club: '',
+    },
+    {
+        name: 'KZ I - Vyškov',
+        date: '215.2.2026',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',
+        results: 'KZ I 2026 - vysledky.pdf',
+    },
+    {
+        name: 'KZ II - Vyškov',
+        date: '1.3.2026',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',
+    },
+    {
+        name: 'KZ III - Vyškov',
+        date: '8.3.2026',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',
+    },
+    {
+        name: 'MZ I - Vyškov',
+        date: '15.3.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',
+    },
+    {
+        name: 'MZ II - Brno',
+        date: '21.3.2025',
+        type: CompetitionType.jednotlivci,
+        club: 'SK MG MANTILA Brno',
+    },
 ]
 
 export default zavody
