@@ -11,6 +11,12 @@ const aktuality : Aktualita[] = [
                 PDFtitle: 'časový program',
                 PDF: 'KZII 2026-casovy program.pdf',
         },
+        {
+                title: 'Kontrolní závod II.',
+                PDFtitle: 'startovní listiny',
+                PDF: 'startovni listiny KZ II -2026.pdf',
+        },
+        },
         
 ]
 
