@@ -15,9 +15,7 @@ const aktuality : Aktualita[] = [
                 title: 'Kontrolní závod II.',
                 PDFtitle: 'startovní listiny',
                 PDF: 'startovni listiny KZ II -2026.pdf',
-        },
-        },
-        
+        },        
 ]
 
 export const aktualityImage  = "";         // jmeno souboru i s příponou, který vložíš do /obrazky/akuality
