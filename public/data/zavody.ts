@@ -612,6 +612,7 @@ const zavody: Competition[] = [
         date: '1.3.2026',
         type: CompetitionType.jednotlivci,
         club: 'SK TRASKO Vyškov',
+        results: 'KZ II 2026 - výsledky.pdf',
     },
     {
         name: 'KZ III - Vyškov',
