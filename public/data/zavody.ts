@@ -601,6 +601,13 @@ const zavody: Competition[] = [
         results: 'MCR DT 2026 - vysledky.pdf',
     },
     {
+        name: 'TRASKO liga',
+        date: '1.2.2026',
+        type: CompetitionType.jednotlivci,
+        club: 'SK TRASKO Vyškov',
+        results: 'TRASKO liga 2026.pdf',
+    },
+    {
         name: 'KZ I - Vyškov',
         date: '215.2.2026',
         type: CompetitionType.jednotlivci,
