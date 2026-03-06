@@ -13,8 +13,8 @@ const aktuality : Aktualita[] = [
         },
         {
                 title: 'Kontrolní závod III.',
-                PDFtitle: 'časový program',
-                PDF: 'KZIII-casovy program.pdf',
+                PDFtitle: 'časový program a startovní listiny',
+                PDF: 'KZ III - tisk.pdf',
         },   
 ]
 
