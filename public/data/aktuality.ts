@@ -15,7 +15,12 @@ const aktuality : Aktualita[] = [
                 title: 'Kontrolní závod III.',
                 PDFtitle: 'výsledky závodu',
                 PDF: 'KZ III 2026 - výsledky.pdf',
-        },   
+        },
+        {
+                title: 'mezioddílový závod',
+                PDFtitle: 'časový program',
+                PDF: 'MZ Vyskov - casovy program.pdf',
+        },
 ]
 
 export const aktualityImage  = "";         // jmeno souboru i s příponou, který vložíš do /obrazky/akuality
