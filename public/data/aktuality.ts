@@ -14,7 +14,7 @@ const aktuality : Aktualita[] = [
         {
                 title: 'Kontrolní závod III.',
                 PDFtitle: 'výsledky závodu',
-                PDF: 'KZ III 2026 - výsledky',
+                PDF: 'KZ III 2026 - výsledky.pdf',
         },   
 ]
 
