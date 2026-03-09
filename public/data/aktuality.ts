@@ -17,7 +17,7 @@ const aktuality : Aktualita[] = [
                 PDF: 'KZ III 2026 - výsledky.pdf',
         },
         {
-                title: 'mezioddílový závod',
+                title: 'Mezioddílový závod',
                 PDFtitle: 'časový program',
                 PDF: 'MZ Vyskov - casovy program.pdf',
         },
