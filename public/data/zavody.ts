@@ -633,12 +633,7 @@ const zavody: Competition[] = [
         date: '15.3.2026',
         type: CompetitionType.jednotlivci,
         club: 'SK TRASKO Vyškov',
-    },
-    {
-        name: 'MZ v ESG - Vyškov',
-        date: '15.3.2026',
-        type: CompetitionType.esg,
-        club: 'SK TRASKO Vyškov',
+        results: 'MZ 2026 - vysledky.pdf',
     },
     {
         name: 'MZ v ESG - Vyškov',
