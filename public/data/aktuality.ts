@@ -18,8 +18,8 @@ const aktuality : Aktualita[] = [
         },
         {
                 title: 'Mezioddílový závod',
-                PDFtitle: 'časový program',
-                PDF: 'MZ Vyskov - casovy program.pdf',
+                PDFtitle: 'výsledky',
+                PDF: 'MZ 2026 - vysledky.pdf',
         },
 ]
 
