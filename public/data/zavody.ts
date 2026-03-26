@@ -659,6 +659,7 @@ const zavody: Competition[] = [
         date: '22.3.2026',
         type: CompetitionType.esg,
         club: 'KMG Zlín',
+        results: 'ESG Cup I-2026 - výsledky.pdf',
     },
     {
         name: 'ESG Cup II - Zubří',
