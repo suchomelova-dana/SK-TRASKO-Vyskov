@@ -646,6 +646,7 @@ const zavody: Competition[] = [
         date: '15.3.2026',
         type: CompetitionType.jednotlivci,
         club: 'SK MG MANTILA Brno',
+        results: 'MZ Mantila 2026 - výsledky.pdf',
     },
     {
         name: 'MZ v ESG - Brno',
