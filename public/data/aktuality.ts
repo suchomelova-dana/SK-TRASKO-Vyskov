@@ -2,21 +2,6 @@ import {Aktualita} from "../../src/interfaces/interfaces";
 
 const aktuality : Aktualita[] = [
         {
-                title: 'Kontrolní závod I.',
-                PDFtitle: 'výsledky závodu',
-                PDF: 'KZ I 2026 - vysledky.pdf',
-        },
-        {
-                title: 'Kontrolní závod II.',
-                PDFtitle: 'výsledky závodu',
-                PDF: 'KZ II 2026 - výsledky.pdf',
-        },
-        {
-                title: 'Kontrolní závod III.',
-                PDFtitle: 'výsledky závodu',
-                PDF: 'KZ III 2026 - výsledky.pdf',
-        },
-        {
                 title: 'Mezioddílový závod',
                 PDFtitle: 'výsledky závodu',
                 PDF: 'MZ 2026 - vysledky.pdf',
@@ -25,6 +10,16 @@ const aktuality : Aktualita[] = [
                 title: 'Mezioddílový závod v Brně',
                 PDFtitle: 'výsledky závodu',
                 PDF: 'MZ Mantila 2026 - výsledky.pdf',
+        },
+        {
+                title: 'O pohár města Vyškova',
+                PDFtitle: 'časový program',
+                PDF: 'O pohar mesta Vyskova 2026 - časový program.pdf',
+        },
+        {
+                title: 'ESG Cup IV - Vyškov',
+                PDFtitle: 'časový program',
+                PDF: 'ESG CUP IV - časový program.pdf',
         },
 ]
 
