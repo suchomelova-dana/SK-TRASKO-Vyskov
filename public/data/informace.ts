@@ -359,12 +359,12 @@ const informace : Information[] = [
      {
         date: '10.8.2026',
         pdf: 'Soustředění léto 2026.pdf',
-        description: '',
+        description: 'informace k soustředění 2026',
     },
      {
         date: '10.8.2026',
         pdf: 'bezinfekčnost Ústí + Vyškov.pdf',
-        description: '',
+        description: 'bezinfekčnost Ústí + Vyškov',
     },
      {
         date: '21.8.2026',
