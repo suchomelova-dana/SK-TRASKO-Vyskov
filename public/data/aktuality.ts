@@ -6,11 +6,6 @@ const aktuality : Aktualita[] = [
                 PDFtitle: 'výsledky závodu',
                 PDF: 'MZ 2026 - vysledky.pdf',
         },
-        {
-                title: 'Mezioddílový závod v Brně',
-                PDFtitle: 'výsledky závodu',
-                PDF: 'MZ Mantila 2026 - výsledky.pdf',
-        },
        
 ]
 
