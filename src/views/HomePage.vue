@@ -40,12 +40,34 @@
         <div class="bg-grayLight w-full py-8 pl-12 pr-8 tablet:p-20 tablet:px-32 flex flex-col items-start desktop:items-center desktop:flex-row desktop:justify-between">
           <ul class="list-disc text-green text-lg " :class="{'desktop:w-[50%]': showAktualityImage}">
             <li class="p-2 text-left" v-for="item in aktuality" :key="item.title">
-                <span class="text-gray-500 ">{{item.title}}</span>
-                <span v-if="item.PDF" class="text-gray-500 "> - </span>
-                <span>
-                  <a :href="'PDFs/aktuality/' + item.PDF" target="_blank" class="text-green hover:text-greenDark">  {{item.PDFtitle}}</a>
-                </span>
-            </li>
+  <span class="text-gray-500">{{ item.title }}</span>
+
+  <!-- PDF -->
+  <template v-if="item.PDF">
+    <span class="text-gray-500"> - </span>
+    <a
+      :href="'PDFs/aktuality/' + item.PDF"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="text-green hover:text-greenDark"
+    >
+      {{ item.PDFtitle }}
+    </a>
+  </template>
+
+  <!-- Externí odkaz -->
+  <template v-if="item.link">
+    <span class="text-gray-500"> - </span>
+    <a
+      :href="item.link"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="text-green hover:text-greenDark"
+    >
+      {{ item.linkTitle }}
+    </a>
+  </template>
+</li>
           </ul>
 
           <div v-if="showAktualityImage" class="max-w-[400px] w-[100%] tablet:max-w-[600px] desktop:max-w-[50%] desktop:w-[50%] my-10 desktop:my-0 flex justify-end">
