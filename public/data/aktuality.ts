@@ -4,7 +4,14 @@ const aktuality : Aktualita[] = [
         {
                 title: 'Zveme malá šikovná děvčátka vyzkoušet si trénink moderní gymnastiky.',
                 PDFtitle: '',
+                PDF: ''
+        },
+        {
+                title: 'Nestihli jste talentové zkoušky? Nevadí.',
+                PDFtitle: '',
                 PDF: '',
+                link: 'https://docs.google.com/forms/d/e/1FAIpQLScsdljfQHb6UHLs3CErXOExS5FvvLi11veAfXBdvuuCCZBNYg/viewform',
+                linkTitle: 'Vyplnit nezávaznou přihlášku'
         },
        
 ]
