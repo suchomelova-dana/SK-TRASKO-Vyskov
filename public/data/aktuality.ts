@@ -7,10 +7,10 @@ const aktuality : Aktualita[] = [
                 PDF: ''
         },
         {
-                title: 'Nestihli jste talentové zkoušky? Nevadí.',
+                title: 'Nestihli jste talentové zkoušky? Nevadí. Přijďte se podívat přímo na trénink.',
                 PDFtitle: '',
                 PDF: '',
-                link: 'https://docs.google.com/forms/d/e/1FAIpQLScsdljfQHb6UHLs3CErXOExS5FvvLi11veAfXBdvuuCCZBNYg/viewform',
+                link: 'https://https://docs.google.com/forms/d/e/1FAIpQLScsdljfQHb6UHLs3CErXOExS5FvvLi11veAfXBdvuuCCZBNYg/viewform',
                 linkTitle: 'Vyplnit nezávaznou přihlášku'
         },
        
