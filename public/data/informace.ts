@@ -372,6 +372,11 @@ const informace : Information[] = [
         description: '',
     },
     {
+        date: '28.8.2026',
+        pdf: 'informace 28.8.2026.pdf',
+        description: '',
+    },
+    {
         date: '19.9.2026',
         pdf: 'Informace 19_9_2026.pdf',
         description: '',
